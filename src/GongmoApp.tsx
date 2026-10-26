@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { TabBar } from './components/TabBar';
 import { SNAPSHOT, fetchLatest } from './data/ipos';
+import type { IpoStatus } from './lib/ipo';
 import { useRouter } from './lib/router';
 import { loadSubscribed, saveSubscribed } from './lib/storage';
 import { CalendarPage } from './pages/CalendarPage';
@@ -14,6 +15,8 @@ export default function GongmoApp() {
   const [subscribed, setSubscribed] = useState<string[]>([]);
 
   const [ipos, setIpos] = useState(SNAPSHOT);
+  // 상세에 다녀와도 펼친 목록이 유지되게 화면 밖에 둔다
+  const [expanded, setExpanded] = useState<IpoStatus[]>([]);
 
   useEffect(() => {
     loadSubscribed().then(setSubscribed);
@@ -38,7 +41,15 @@ export default function GongmoApp() {
     <>
       {tab === 'calendar' && <CalendarPage ipos={ipos} subscribed={subscribed} onOpen={open} />}
       {tab === 'mine' && <MinePage ipos={ipos.filter((i) => subscribed.includes(i.id))} onOpen={open} onBrowse={() => setTab('home')} />}
-      {tab === 'home' && <SchedulePage ipos={ipos} subscribed={subscribed} onOpen={open} />}
+      {tab === 'home' && (
+        <SchedulePage
+          ipos={ipos}
+          subscribed={subscribed}
+          expanded={expanded}
+          onOpen={open}
+          onToggleExpand={(s) => setExpanded((e) => (e.includes(s) ? e.filter((x) => x !== s) : [...e, s]))}
+        />
+      )}
       <TabBar current={tab} onChange={setTab} />
     </>
   );

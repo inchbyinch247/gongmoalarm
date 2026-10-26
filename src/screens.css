@@ -245,6 +245,22 @@ button.card.row {
   color: var(--color-text-subtle);
 }
 
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-1);
+  width: 100%;
+  min-height: 48px;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-size: var(--font-size-body-small);
+  font-weight: 600;
+  color: var(--color-text-subtle);
+  cursor: pointer;
+}
+
 .badge {
   padding: 2px var(--space-2);
   border-radius: 8px;

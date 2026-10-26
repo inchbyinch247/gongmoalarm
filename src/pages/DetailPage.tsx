@@ -69,7 +69,17 @@ export function DetailPage({ ipo, subscribed, onToggle }: Props) {
               {ipo.floatShares ? (
                 <>
                   {ipo.floatShares.shares.toLocaleString('ko-KR')}주 ({ipo.floatShares.ratio}%)
-                  {ipo.offerPrice && <span className="dd-sub">공모가 기준 약 {eokAmount(ipo.floatShares.shares * ipo.offerPrice)}</span>}
+                  {ipo.offerPrice ? (
+                    <span className="dd-sub">공모가 기준 약 {eokAmount(ipo.floatShares.shares * ipo.offerPrice)}</span>
+                  ) : (
+                    ipo.priceBand && (
+                      // 확정 전에는 희망공모가 밴드 양 끝으로 범위를 보여준다
+                      <span className="dd-sub">
+                        희망공모가 기준 약 {eokAmount(ipo.floatShares.shares * ipo.priceBand[0]).replace(' 원', '')} ~{' '}
+                        {eokAmount(ipo.floatShares.shares * ipo.priceBand[1])}
+                      </span>
+                    )
+                  )}
                 </>
               ) : (
                 PENDING

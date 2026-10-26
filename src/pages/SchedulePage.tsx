@@ -1,15 +1,20 @@
 import { BannerAd } from '../components/BannerAd';
-import { ChevronRight } from '../components/icons';
+import { ChevronDown, ChevronRight, ChevronUp } from '../components/icons';
 import type { Ipo } from '../data/types';
 import { type IpoStatus, STATUS_LABEL, shortDate, statusOf, won } from '../lib/ipo';
 
 // 상장 완료 종목은 v1 일정 목록에서 뺀다 — 내 청약에서만 확인한다
 const SECTIONS: IpoStatus[] = ['open', 'upcoming', 'listing'];
+// 청약 예정·상장 예정을 한 화면에 함께 보이게 앞의 몇 개만 보여주고 나머지는 더보기로 펼친다
+const COLLAPSIBLE: IpoStatus[] = ['upcoming', 'listing'];
+const PREVIEW = 3;
 
 interface Props {
   ipos: Ipo[];
   subscribed: string[];
+  expanded: IpoStatus[];
   onOpen: (id: string) => void;
+  onToggleExpand: (status: IpoStatus) => void;
 }
 
 function rowMeta(ipo: Ipo, status: IpoStatus) {
@@ -18,7 +23,7 @@ function rowMeta(ipo: Ipo, status: IpoStatus) {
   return `청약 ${shortDate(ipo.subscriptionStart)}~${shortDate(ipo.subscriptionEnd)} · ${price}`;
 }
 
-export function SchedulePage({ ipos, subscribed, onOpen }: Props) {
+export function SchedulePage({ ipos, subscribed, expanded, onOpen, onToggleExpand }: Props) {
   const groups = SECTIONS.map((s) => ({
     status: s,
     items: ipos.filter((i) => statusOf(i) === s).sort((a, b) => a.subscriptionStart.localeCompare(b.subscriptionStart)),
@@ -40,7 +45,7 @@ export function SchedulePage({ ipos, subscribed, onOpen }: Props) {
         <section key={g.status} className="section">
           <h2 className="section-title">{STATUS_LABEL[g.status]}</h2>
           <ul className="card list">
-            {g.items.map((ipo) => (
+            {(COLLAPSIBLE.includes(g.status) && !expanded.includes(g.status) ? g.items.slice(0, PREVIEW) : g.items).map((ipo) => (
               <li key={ipo.id}>
                 <button type="button" className="row" onClick={() => onOpen(ipo.id)}>
                   <span className="row-main">
@@ -56,6 +61,21 @@ export function SchedulePage({ ipos, subscribed, onOpen }: Props) {
                 </button>
               </li>
             ))}
+            {COLLAPSIBLE.includes(g.status) && g.items.length > PREVIEW && (
+              <li>
+                <button type="button" className="more" aria-expanded={expanded.includes(g.status)} onClick={() => onToggleExpand(g.status)}>
+                  {expanded.includes(g.status) ? (
+                    <>
+                      접기 <ChevronUp size={18} />
+                    </>
+                  ) : (
+                    <>
+                      더보기 ({g.items.length - PREVIEW}개) <ChevronDown size={18} />
+                    </>
+                  )}
+                </button>
+              </li>
+            )}
           </ul>
         </section>
       ))}
