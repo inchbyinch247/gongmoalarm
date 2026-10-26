@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "01564514",
+    "name": "글로벌테크놀로지",
+    "market": "코스닥",
+    "subscriptionStart": "2026-09-16",
+    "subscriptionEnd": "2026-09-17",
+    "listingDate": "2026-09-29",
+    "offerPrice": 10000,
+    "priceBand": [
+      13000,
+      15000
+    ],
+    "summary": null,
+    "financials": null,
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 4359571,
+      "ratio": 22.26
+    },
+    "lockupRatio": 0.27,
+    "underwriters": [
+      "한국투자증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-09-15",
+      "rcptNo": "20260908000396",
+      "confirmRcptNo": "20260915000237"
+    }
+  },
+  {
+    "id": "01028933",
+    "name": "멜콘",
+    "market": "코스닥",
+    "subscriptionStart": "2026-10-01",
+    "subscriptionEnd": "2026-10-02",
+    "listingDate": "2026-10-15",
+    "offerPrice": 12300,
+    "priceBand": [
+      10700,
+      12300
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 418.3,
+      "operatingProfit": 61.6
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 4346680,
+      "ratio": 34.57
+    },
+    "lockupRatio": 36.07,
+    "underwriters": [
+      "대신증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-09-29",
+      "rcptNo": "20260909000381",
+      "confirmRcptNo": "20260929000191"
+    }
+  },
+  {
+    "id": "01158632",
+    "name": "진코스텍",
+    "market": "코스닥",
+    "subscriptionStart": "2026-10-02",
+    "subscriptionEnd": "2026-10-06",
+    "listingDate": "2026-10-15",
+    "offerPrice": 23500,
+    "priceBand": [
+      19500,
+      23500
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 486.5,
+      "operatingProfit": 48.5
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 2212851,
+      "ratio": 58.44
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "하나증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-01",
+      "rcptNo": "20260910000579",
+      "confirmRcptNo": "20261001000586"
+    }
+  },
+  {
+    "id": "01754737",
+    "name": "엘리스",
+    "market": "코스닥",
+    "subscriptionStart": "2026-10-07",
+    "subscriptionEnd": "2026-10-08",
+    "listingDate": "2026-10-20",
+    "offerPrice": 90500,
+    "priceBand": [
+      70400,
+      90500
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 395.1,
+      "operatingProfit": 51.8
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 2311880,
+      "ratio": 20.81
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "미래에셋증권",
+      "삼성증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-06",
+      "rcptNo": "20260929000656",
+      "confirmRcptNo": "20261006000447"
+    }
+  },
+  {
+    "id": "01749559",
+    "name": "엠에스바이오",
+    "market": "코스닥",
+    "subscriptionStart": "2026-10-12",
+    "subscriptionEnd": "2026-10-13",
+    "listingDate": "2026-10-22",
+    "offerPrice": 7800,
+    "priceBand": [
+      6800,
+      7800
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 237.9,
+      "operatingProfit": 85.6
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 6347310,
+      "ratio": 23.33
+    },
+    "lockupRatio": 30.62,
+    "underwriters": [
+      "케이비증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-07",
+      "rcptNo": "20260929000496",
+      "confirmRcptNo": "20261007000327"
+    }
+  },
+  {
+    "id": "00534729",
+    "name": "디티에스",
+    "market": "코스닥",
+    "subscriptionStart": "2026-10-13",
+    "subscriptionEnd": "2026-10-14",
+    "listingDate": "2026-10-23",
+    "offerPrice": 18500,
+    "priceBand": [
+      17000,
+      18500
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 1427.2,
+      "operatingProfit": 250.8
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 2250787,
+      "ratio": 15.15
+    },
+    "lockupRatio": 13.31,
+    "underwriters": [
+      "대신증권",
+      "유진증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-12",
+      "rcptNo": "20261001000078",
+      "confirmRcptNo": "20261012000308"
+    }
+  },
+  {
+    "id": "01540903",
+    "name": "크리에이츠",
+    "market": "코스닥",
+    "subscriptionStart": "2026-10-20",
+    "subscriptionEnd": "2026-10-21",
+    "listingDate": "2026-10-29",
+    "offerPrice": 15000,
+    "priceBand": [
+      15000,
+      18000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 1041.8,
+      "operatingProfit": 250.5
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 5176832,
+      "ratio": 39.47
+    },
+    "lockupRatio": 0,
+    "underwriters": [
+      "삼성증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-19",
+      "rcptNo": "20260928000196",
+      "confirmRcptNo": "20261019000283"
+    }
+  },
+  {
+    "id": "01543043",
+    "name": "티앤이코리아",
+    "market": "코스닥",
+    "subscriptionStart": "2026-10-20",
+    "subscriptionEnd": "2026-10-21",
+    "listingDate": "2026-10-29",
+    "offerPrice": 15300,
+    "priceBand": [
+      12600,
+      15300
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 234.5,
+      "operatingProfit": -18.1
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 3551856,
+      "ratio": 31.27
+    },
+    "lockupRatio": 29.52,
+    "underwriters": [
+      "신한투자증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-16",
+      "rcptNo": "20260923000255",
+      "confirmRcptNo": "20261016000158"
+    }
+  },
+  {
+    "id": "01649408",
+    "name": "인텔리빅스",
+    "market": "코스닥",
+    "subscriptionStart": "2026-10-21",
+    "subscriptionEnd": "2026-10-22",
+    "listingDate": "2026-10-31",
+    "offerPrice": 9000,
+    "priceBand": [
+      7600,
+      9000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 466.4,
+      "operatingProfit": 48.8
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 2715067,
+      "ratio": 23.95
+    },
+    "lockupRatio": 6.14,
+    "underwriters": [
+      "미래에셋증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-20",
+      "rcptNo": "20261008000310",
+      "confirmRcptNo": "20261020000360"
+    }
+  },
+  {
+    "id": "01378005",
+    "name": "이에스티",
+    "market": "코스닥",
+    "subscriptionStart": "2026-10-22",
+    "subscriptionEnd": "2026-10-23",
+    "listingDate": "2026-11-04",
+    "offerPrice": 12400,
+    "priceBand": [
+      10600,
+      12400
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 354.2,
+      "operatingProfit": -0.7
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 5243400,
+      "ratio": 37.68
+    },
+    "lockupRatio": 0.24,
+    "underwriters": [
+      "대신증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-21",
+      "rcptNo": "20261020000144",
+      "confirmRcptNo": "20261021000363"
+    }
+  },
+  {
+    "id": "01956751",
+    "name": "래블업",
+    "market": "코스닥",
+    "subscriptionStart": "2026-10-22",
+    "subscriptionEnd": "2026-10-23",
+    "listingDate": "2026-11-03",
+    "offerPrice": 19000,
+    "priceBand": [
+      19000,
+      22000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 67.2,
+      "operatingProfit": 6.8
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 5172746,
+      "ratio": 35.57
+    },
+    "lockupRatio": 2.09,
+    "underwriters": [
+      "NH투자증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-21",
+      "rcptNo": "20261014000436",
+      "confirmRcptNo": "20261021000334"
+    }
+  },
+  {
+    "id": "00579342",
+    "name": "영광",
+    "market": "코스닥",
+    "subscriptionStart": "2026-10-22",
+    "subscriptionEnd": "2026-10-23",
+    "listingDate": "2026-11-02",
+    "offerPrice": 17000,
+    "priceBand": [
+      14000,
+      17000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 1131.3,
+      "operatingProfit": 123
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 2870800,
+      "ratio": 31.75
+    },
+    "lockupRatio": 0.87,
+    "underwriters": [
+      "한국투자증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-21",
+      "rcptNo": "20261008000623",
+      "confirmRcptNo": "20261021000239"
+    }
+  },
+  {
+    "id": "00784184",
+    "name": "동원파츠",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-02",
+    "subscriptionEnd": "2026-11-03",
+    "listingDate": "2026-11-10",
+    "offerPrice": null,
+    "priceBand": [
+      23000,
+      26500
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 922.5,
+      "operatingProfit": 77.6
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 2734201,
+      "ratio": 29.47
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "삼성증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-23",
+      "rcptNo": "20261023000331"
+    }
+  },
+  {
+    "id": "01835829",
+    "name": "바로팜",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-02",
+    "subscriptionEnd": "2026-11-03",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      16400,
+      20200
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 967.2,
+      "operatingProfit": -39.3
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 3629716,
+      "ratio": 30.38
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "미래에셋증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-15",
+      "rcptNo": "20261015000345"
+    }
+  },
+  {
+    "id": "01863318",
+    "name": "넥스아이",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-03",
+    "subscriptionEnd": "2026-11-04",
+    "listingDate": "2026-11-12",
+    "offerPrice": null,
+    "priceBand": [
+      10500,
+      13000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 51.1,
+      "operatingProfit": -165.2
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 16947525,
+      "ratio": 37.03
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "한국투자증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-16",
+      "rcptNo": "20261016000268"
+    }
+  },
+  {
+    "id": "00960234",
+    "name": "영광와이케이엠씨",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-04",
+    "subscriptionEnd": "2026-11-05",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      9400,
+      11000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 516.1,
+      "operatingProfit": 44.8
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 5041041,
+      "ratio": 34.86
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "대신증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-10-08",
+      "rcptNo": "20261008000649"
+    }
+  },
+  {
+    "id": "01658035",
+    "name": "옵토닉스",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-05",
+    "subscriptionEnd": "2026-11-06",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      10000,
+      12000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 256,
+      "operatingProfit": 36
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 2172890,
+      "ratio": 22.71
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "한국투자증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-21",
+      "rcptNo": "20261021000210"
+    }
+  },
+  {
+    "id": "01797635",
+    "name": "에이엘로봇",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-06",
+    "subscriptionEnd": "2026-11-09",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      15700,
+      17600
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 149.8,
+      "operatingProfit": -13.4
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 4218360,
+      "ratio": 35.01
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "대신증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-12",
+      "rcptNo": "20261012000490"
+    }
+  },
+  {
+    "id": "01025617",
+    "name": "하나에어로다이내믹스",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-10",
+    "subscriptionEnd": "2026-11-11",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      4700,
+      5700
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 332.9,
+      "operatingProfit": 49.9
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 5465381,
+      "ratio": 30.83
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "아이비케이투자증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-16",
+      "rcptNo": "20261016000159"
+    }
+  },
+  {
+    "id": "01706509",
+    "name": "다비오",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-10",
+    "subscriptionEnd": "2026-11-11",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      12300,
+      16600
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 92.6,
+      "operatingProfit": -44.5
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 3322710,
+      "ratio": 38.88
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "대신증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-08",
+      "rcptNo": "20261008000705"
+    }
+  },
+  {
+    "id": "01403198",
+    "name": "제이앤티지",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-12",
+    "subscriptionEnd": "2026-11-13",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      26400,
+      31900
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 723.8,
+      "operatingProfit": 213.3
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 5482794,
+      "ratio": 28.98
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "대신증권",
+      "NH투자증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-10-16",
+      "rcptNo": "20261016000426"
+    }
+  },
+  {
+    "id": "00618173",
+    "name": "씨앤엠",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-12",
+    "subscriptionEnd": "2026-11-13",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      10000,
+      13000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 2384.9,
+      "operatingProfit": 213.3
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 13473501,
+      "ratio": 45.75
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "한국투자증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-10-16",
+      "rcptNo": "20261016000412"
+    }
+  },
+  {
+    "id": "01705740",
+    "name": "엠비디",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-12",
+    "subscriptionEnd": "2026-11-13",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      9600,
+      11700
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 15.2,
+      "operatingProfit": -56.3
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 4878263,
+      "ratio": 34.06
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "하나증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-15",
+      "rcptNo": "20261015000329"
+    }
+  },
+  {
+    "id": "01795859",
+    "name": "엔키화이트햇",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-12",
+    "subscriptionEnd": "2026-11-13",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      13000,
+      16500
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 141.8,
+      "operatingProfit": 34.8
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 4021887,
+      "ratio": 37.95
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "신영증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-10-08",
+      "rcptNo": "20261008000660"
+    }
+  },
+  {
+    "id": "01705573",
+    "name": "유캐스트",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-18",
+    "subscriptionEnd": "2026-11-19",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      19000,
+      23000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 59.3,
+      "operatingProfit": -18.3
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 5973910,
+      "ratio": 36.81
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "유진증권",
+      "신영증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-21",
+      "rcptNo": "20261021000443"
+    }
+  },
+  {
+    "id": "00299109",
+    "name": "에스에프씨",
+    "market": "코스피",
+    "subscriptionStart": "2026-11-18",
+    "subscriptionEnd": "2026-11-19",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      31600,
+      36100
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2026,
+      "revenue": 1607.9,
+      "operatingProfit": 216.7
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 4895920,
+      "ratio": 24.17
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "미래에셋증권",
+      "한국투자증권",
+      "삼성증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-10-19",
+      "rcptNo": "20261019000368"
+    }
+  },
+  {
+    "id": "01938746",
+    "name": "아델",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-23",
+    "subscriptionEnd": "2026-11-24",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      18000,
+      25000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 620.6,
+      "operatingProfit": 494.2
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 7861700,
+      "ratio": 36.29
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "삼성증권",
+      "미래에셋증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-10-12",
+      "rcptNo": "20261012000445"
+    }
+  },
+  {
+    "id": "01950720",
+    "name": "제논",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-24",
+    "subscriptionEnd": "2026-11-25",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      9700,
+      12200
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 117.4,
+      "operatingProfit": 7
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 4166180,
+      "ratio": 29.07
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "삼성증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-26",
+      "rcptNo": "20261026000001"
+    }
+  },
+  {
+    "id": "01880139",
+    "name": "케이엠에프",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-24",
+    "subscriptionEnd": "2026-11-25",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      15000,
+      17800
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 257.5,
+      "operatingProfit": 143.7
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 3250187,
+      "ratio": 38.31
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "아이비케이투자증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-10-02",
+      "rcptNo": "20261002000390"
+    }
+  },
+  {
+    "id": "01366675",
+    "name": "에이엔에이치스트럭쳐",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-27",
+    "subscriptionEnd": "2026-11-30",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      11200,
+      13600
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 213.6,
+      "operatingProfit": -0.1
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 3045747,
+      "ratio": 29.49
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "NH투자증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-10-20",
+      "rcptNo": "20261020000375"
+    }
+  },
+  {
+    "id": "01783687",
+    "name": "이노보테라퓨틱스",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-07",
+    "subscriptionEnd": "2026-12-08",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      20000,
+      24000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 2.1,
+      "operatingProfit": -110.5
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 3600652,
+      "ratio": 25.46
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "한국투자증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-10-21",
+      "rcptNo": "20261021000153"
+    }
+  },
+  {
+    "id": "01860700",
+    "name": "인터엑스",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-09",
+    "subscriptionEnd": "2026-12-10",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      10000,
+      13000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 86.4,
+      "operatingProfit": -82.8
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 5474628,
+      "ratio": 37.5
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "한국투자증권",
+      "BNK투자증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-10-22",
+      "rcptNo": "20261022000478"
+    }
+  },
+  {
+    "id": "01077540",
+    "name": "씨아이에스케미칼",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-10",
+    "subscriptionEnd": "2026-12-11",
+    "listingDate": "2026-12-22",
+    "offerPrice": null,
+    "priceBand": [
+      5400,
+      6800
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 159.8,
+      "operatingProfit": -102.6
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 11658971,
+      "ratio": 37.71
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "케이비증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-10-19",
+      "rcptNo": "20261019000343"
+    }
+  }
+]
