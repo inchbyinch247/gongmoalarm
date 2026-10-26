@@ -18,6 +18,7 @@
   /* 배경 */
   --color-bg: #ffffff; /* 기본 배경 */
   --color-bg-canvas: #f2f4f6; /* 회색 캔버스 배경 */
+  --color-bg-strong: #dde1e6; /* 캔버스 위에서도 구분되는 보조 버튼 배경 */
 
   /* 상태색 — harness 기준(H), 공식 규격 단정 아님 */
   --color-danger: #f04452; /* 위험·에러 상태 */

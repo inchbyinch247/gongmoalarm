@@ -415,6 +415,6 @@ button.card.row {
 }
 
 .cta-secondary {
-  background: var(--color-bg-canvas);
+  background: var(--color-bg-strong);
   color: var(--color-text-default);
 }
