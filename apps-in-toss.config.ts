@@ -3,7 +3,7 @@ import { defineConfig } from '@apps-in-toss/web-framework/config';
 export default defineConfig({
   appName: 'gongmoalarm',
   brand: {
-    primaryColor: '#3182F6', // 화면에 노출될 앱의 기본 색상으로 바꿔주세요.
+    primaryColor: '#6D28D9', // 앱 대표색(바이올렛) — src/styles/tokens.css의 --color-accent와 같은 값
   },
   permissions: [],
   webBundleDir: 'dist',

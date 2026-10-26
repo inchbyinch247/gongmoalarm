@@ -1,7 +1,7 @@
 import { BannerAd } from '../components/BannerAd';
 import { ChevronDown, ChevronRight, ChevronUp } from '../components/icons';
 import type { Ipo } from '../data/types';
-import { type IpoStatus, STATUS_LABEL, shortDate, statusOf, won } from '../lib/ipo';
+import { type IpoStatus, STATUS_LABEL, shortDate, statusOf, thisWeek, won } from '../lib/ipo';
 
 // 상장 완료 종목은 v1 일정 목록에서 뺀다 — 내 청약에서만 확인한다
 const SECTIONS: IpoStatus[] = ['open', 'upcoming', 'listing'];
@@ -29,10 +29,25 @@ export function SchedulePage({ ipos, subscribed, expanded, onOpen, onToggleExpan
     items: ipos.filter((i) => statusOf(i) === s).sort((a, b) => a.subscriptionStart.localeCompare(b.subscriptionStart)),
   })).filter((g) => g.items.length > 0);
   const openCount = groups.find((g) => g.status === 'open')?.items.length ?? 0;
+  const [mon, sun] = thisWeek();
+  const stats = [
+    { label: '이번 주 청약', value: ipos.filter((i) => i.subscriptionStart <= sun && i.subscriptionEnd >= mon).length },
+    { label: '이번 주 상장', value: ipos.filter((i) => i.listingDate && i.listingDate >= mon && i.listingDate <= sun).length },
+    { label: '내 청약', value: ipos.filter((i) => subscribed.includes(i.id)).length },
+  ];
 
   return (
     <main className="screen canvas bg-canvas has-tabbar">
       <h1 className="hero-title">{openCount > 0 ? `지금 청약할 수 있는 공모주 ${openCount}개` : '공모주 청약 일정'}</h1>
+
+      <dl className="card stats">
+        {stats.map((s) => (
+          <div key={s.label}>
+            <dt>{s.label}</dt>
+            <dd>{s.value}</dd>
+          </div>
+        ))}
+      </dl>
 
       {groups.length === 0 && (
         <section className="card empty">

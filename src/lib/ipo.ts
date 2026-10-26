@@ -15,9 +15,23 @@ export function today(): string {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
-export function statusOf(ipo: Ipo, now = today()): IpoStatus {
+/** 이번 주 월요일~일요일 (YYYY-MM-DD) */
+export function thisWeek(now = today()): [string, string] {
+  const d = new Date(`${now}T00:00:00`);
+  const mon = new Date(d);
+  mon.setDate(d.getDate() - ((d.getDay() + 6) % 7));
+  const sun = new Date(mon);
+  sun.setDate(mon.getDate() + 6);
+  const iso = (x: Date) => `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, '0')}-${String(x.getDate()).padStart(2, '0')}`;
+  return [iso(mon), iso(sun)];
+}
+
+/** 청약 마감 시각 — 증권사마다 다르지만 대부분 16시에 끝나 이 시각으로 통일한다 */
+const SUBSCRIPTION_CLOSE_HOUR = 16;
+
+export function statusOf(ipo: Ipo, now = today(), hour = new Date().getHours()): IpoStatus {
   if (now < ipo.subscriptionStart) return 'upcoming';
-  if (now <= ipo.subscriptionEnd) return 'open';
+  if (now < ipo.subscriptionEnd || (now === ipo.subscriptionEnd && hour < SUBSCRIPTION_CLOSE_HOUR)) return 'open';
   if (!ipo.listingDate || now < ipo.listingDate) return 'listing';
   return 'listed';
 }
