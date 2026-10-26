@@ -11,7 +11,9 @@
     "deploy": "ait deploy",
     "collect": "node --env-file-if-exists=.env collector/collect.ts",
     "test:collector": "node --test collector/parse.test.ts",
-    "dump": "node --env-file-if-exists=.env collector/dump.ts"
+    "dump": "node --env-file-if-exists=.env collector/dump.ts",
+    "excerpts": "node --env-file-if-exists=.env collector/excerpts.ts",
+    "check-overrides": "node collector/check-overrides.ts"
   },
   "dependencies": {
     "@apps-in-toss/web-framework": "3.8.1",

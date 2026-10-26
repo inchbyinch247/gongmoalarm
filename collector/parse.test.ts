@@ -83,3 +83,13 @@ test('KIND 공모기업현황: 상장예정일·확정공모가', async () => {
   assert.deepEqual(m.get('동원파츠'), { listingDate: '2026-11-10', offerPrice: null });
   assert.deepEqual(m.get('이에스티'), { listingDate: '2026-11-04', offerPrice: 12_400 });
 });
+
+test('overrides 검사: 금지 표현·길이를 어긴 문장만 지운다', async () => {
+  const { sanitize } = await import('./check-overrides.ts');
+  const { cleaned, removed } = sanitize({
+    a: { summary: '물류센터용 자율이동로봇과 관제 소프트웨어를 만든다.', competitiveness: '상장 후 상승 여력이 큰 저평가 종목이다.' },
+    b: { summary: '짧음' },
+  });
+  assert.deepEqual(cleaned, { a: { summary: '물류센터용 자율이동로봇과 관제 소프트웨어를 만든다.' } });
+  assert.equal(removed.length, 2);
+});

@@ -93,10 +93,13 @@ export function DetailPage({ ipo, subscribed, onToggle }: Props) {
         </dl>
       </section>
 
-      <section className="section">
-        <h2 className="section-title">경쟁사 대비 경쟁력</h2>
-        <p className="card body prose">{ipo.competitiveness ?? '증권신고서 내용을 확인하고 있어요.'}</p>
-      </section>
+      {/* 아직 작성되지 않은 종목은 칸을 숨긴다 */}
+      {ipo.competitiveness && (
+        <section className="section">
+          <h2 className="section-title">경쟁사 대비 경쟁력</h2>
+          <p className="card body prose">{ipo.competitiveness}</p>
+        </section>
+      )}
 
       <BannerAd />
 

@@ -30,3 +30,6 @@ dist-ssr
 
 # API 키 — 절대 커밋하지 않는다
 .env
+
+# Claude Code 입력용 공시 발췌(매 실행 새로 만든다)
+collector/work/
