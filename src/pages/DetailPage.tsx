@@ -55,6 +55,12 @@ export function DetailPage({ ipo, subscribed, onToggle }: Props) {
       <section className="section">
         <h2 className="section-title">핵심 정보</h2>
         <dl className="card facts">
+          {ipo.industry && (
+            <div>
+              <dt>업종</dt>
+              <dd>{ipo.industry}</dd>
+            </div>
+          )}
           <div>
             <dt>매출액{fin && ` (${fin.year}년)`}</dt>
             <dd>{fin ? eok(fin.revenue) : CHECKING}</dd>

@@ -87,9 +87,22 @@ test('KIND 공모기업현황: 상장예정일·확정공모가', async () => {
 test('overrides 검사: 금지 표현·길이를 어긴 문장만 지운다', async () => {
   const { sanitize } = await import('./check-overrides.ts');
   const { cleaned, removed } = sanitize({
-    a: { summary: '물류센터용 자율이동로봇과 관제 소프트웨어를 만든다.', competitiveness: '상장 후 상승 여력이 큰 저평가 종목이다.' },
+    a: { summary: '물류센터용 자율이동로봇과 관제 소프트웨어를 만들어요.', competitiveness: '상장 후 상승 여력이 큰 저평가 종목이에요.' },
     b: { summary: '짧음' },
+    // '~한다'체는 앱 어투와 달라 지운다
+    c: { summary: '물류센터용 자율이동로봇과 관제 소프트웨어를 만든다.' },
   });
-  assert.deepEqual(cleaned, { a: { summary: '물류센터용 자율이동로봇과 관제 소프트웨어를 만든다.' } });
-  assert.equal(removed.length, 2);
+  assert.deepEqual(cleaned, { a: { summary: '물류센터용 자율이동로봇과 관제 소프트웨어를 만들어요.' } });
+  assert.equal(removed.length, 3);
+});
+
+test('업종: 표준산업분류 코드 → 분류명, 없으면 상위 분류', async () => {
+  const { industryName } = await import('./ksic.ts');
+  assert.equal(industryName('29271'), '반도체 제조용 기계 제조업');
+  assert.equal(industryName('47911'), '전자상거래 소매 중개업');
+  // 표에 없는 5자리 → 4자리 상위 분류
+  assert.equal(industryName('29279'), '반도체 및 디스플레이 제조용 기계 제조업');
+  // 중분류(2자리)만 등록된 회사
+  assert.equal(industryName('29'), '기타 기계 및 장비 제조업');
+  assert.equal(industryName(null), null);
 });

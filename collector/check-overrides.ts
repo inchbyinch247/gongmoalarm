@@ -16,6 +16,8 @@ export function checkText(field: keyof typeof LIMITS, text: unknown): string | n
   if (t.length > LIMITS[field]) return `${LIMITS[field]}자 초과`;
   if (BANNED.test(t)) return `금지 표현: ${t.match(BANNED)![0]}`;
   if (/[<>{}]|https?:/.test(t)) return '태그·링크 포함';
+  // 앱 문구 어투('~해요'체)를 맞춘다 — 문장마다 "요."로 끝나야 한다
+  if (!t.split(/(?<=\.)\s+/).every((s) => s.endsWith('요.'))) return "'~해요'체가 아님";
   return null;
 }
 

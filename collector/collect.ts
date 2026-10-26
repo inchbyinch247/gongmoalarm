@@ -2,7 +2,8 @@
 // 실행: npm run collect (.env의 DART_API_KEY 사용)
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import type { Ipo } from '../src/data/types.ts';
-import { type Filing, type Section, fetchSections, listEquityFilings, sectionHtml } from './dart.ts';
+import { type Filing, type Section, fetchIndustryCode, fetchSections, listEquityFilings, sectionHtml } from './dart.ts';
+import { industryName } from './ksic.ts';
 import { type KindSchedule, fetchKindSchedules, normalizeName } from './kind.ts';
 import { parseConfirmedPrice, parseFinancials, parseFloat, parseGeneral, parseListingDate, parseLockup, parsePriceBand } from './parse.ts';
 
@@ -136,6 +137,12 @@ async function main() {
   }
   // 검색 기간을 벗어났지만 아직 상장 전후인 종목은 이전 결과를 유지한다
   for (const [id, ipo] of previous) if (!results.has(id)) results.set(id, ipo);
+
+  // 업종은 회사당 한 번만 조회한다 — 이전 결과에 있으면 그대로 쓴다
+  for (const ipo of results.values()) {
+    if (ipo.industry) continue;
+    ipo.industry = previous.get(ipo.id)?.industry ?? industryName(await fetchIndustryCode(apiKey!, ipo.id).catch(() => null));
+  }
 
   const cutoff = daysAgo(KEEP_AFTER_LISTING_DAYS).toISOString().slice(0, 10);
   const out = [...results.values()]

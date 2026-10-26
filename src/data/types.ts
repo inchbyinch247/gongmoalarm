@@ -5,6 +5,8 @@ export interface Ipo {
   id: string;
   name: string;
   market: Market;
+  /** 한국표준산업분류명(DART 기업개황 코드 기준) */
+  industry?: string | null;
   /** YYYY-MM-DD */
   subscriptionStart: string;
   subscriptionEnd: string;

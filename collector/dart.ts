@@ -45,6 +45,12 @@ export async function listEquityFilings(apiKey: string, bgnDe: string, endDe: st
   return out;
 }
 
+/** 기업개황의 표준산업분류 코드(induty_code). 실패하면 null */
+export async function fetchIndustryCode(apiKey: string, corpCode: string): Promise<string | null> {
+  const body = await (await get(`https://opendart.fss.or.kr/api/company.json?${new URLSearchParams({ crtfc_key: apiKey, corp_code: corpCode })}`)).json();
+  return body.status === '000' && body.induty_code ? String(body.induty_code) : null;
+}
+
 /** 공시서류 원본을 받아 목차 제목(TITLE) 단위로 자른다. 본문 문서(접수번호.xml)만 쓰고 첨부는 뺀다 */
 export async function fetchSections(apiKey: string, rcpNo: string): Promise<Section[]> {
   await sleep(500); // OpenDART 호출 한도(분당)를 넘기지 않게 간격을 둔다
