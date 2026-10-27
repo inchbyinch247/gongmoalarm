@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { BannerAd } from '../components/BannerAd';
 import { ChevronDown, ChevronRight, ChevronUp } from '../components/icons';
 import type { Ipo } from '../data/types';
@@ -14,6 +15,8 @@ interface Props {
   subscribed: string[];
   expanded: IpoStatus[];
   showAlertsCta: boolean;
+  // 토스 설정에서 알림을 끈 것은 SDK로 읽을 수 없어 켠 뒤에도 박스를 남긴다 — 누르면 동의를 다시 확인한다
+  alertsOn: boolean;
   onEnableAlerts: () => void;
   onOpen: (id: string) => void;
   onToggleExpand: (status: IpoStatus) => void;
@@ -25,7 +28,9 @@ function rowMeta(ipo: Ipo, status: IpoStatus) {
   return `청약 ${shortDate(ipo.subscriptionStart)}~${shortDate(ipo.subscriptionEnd)} · ${price}`;
 }
 
-export function SchedulePage({ ipos, subscribed, expanded, showAlertsCta, onEnableAlerts, onOpen, onToggleExpand }: Props) {
+export function SchedulePage({ ipos, subscribed, expanded, showAlertsCta, alertsOn, onEnableAlerts, onOpen, onToggleExpand }: Props) {
+  // 이미 동의했으면 동의 화면이 뜨지 않으므로, 누른 뒤 끄는 방법을 보여 준다
+  const [offHint, setOffHint] = useState(false);
   const groups = SECTIONS.map((s) => ({
     status: s,
     items: ipos.filter((i) => statusOf(i) === s).sort((a, b) => a.subscriptionStart.localeCompare(b.subscriptionStart)),
@@ -54,12 +59,20 @@ export function SchedulePage({ ipos, subscribed, expanded, showAlertsCta, onEnab
       {showAlertsCta && (
         <ul className="card list">
           <li>
-            <button type="button" className="row row-compact" onClick={onEnableAlerts}>
+            <button
+              type="button"
+              className="row row-compact"
+              onClick={() => {
+                if (alertsOn) setOffHint((h) => !h);
+                onEnableAlerts();
+              }}
+            >
               <span className="tf alert-emoji" aria-hidden="true">
                 🔔
               </span>
               <span className="row-main">
-                <span className="row-title">청약일·상장일 알림 받기</span>
+                <span className="row-title">{alertsOn ? '청약일·상장일 알림 받는 중' : '청약일·상장일 알림 받기'}</span>
+                {alertsOn && offHint && <span className="row-meta">알림을 끄려면 오른쪽 상단 ··· 버튼을 눌러 설정의 약관에서 '알림 신청서' 동의를 철회해 주세요.</span>}
               </span>
               <ChevronRight size={20} />
             </button>

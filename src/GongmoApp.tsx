@@ -64,7 +64,8 @@ export default function GongmoApp() {
           ipos={ipos}
           subscribed={subscribed}
           expanded={expanded}
-          showAlertsCta={!!ALARM_API && alerts !== 'on'}
+          showAlertsCta={!!ALARM_API}
+          alertsOn={alerts === 'on'}
           onEnableAlerts={() => enableAlerts(subscribed).then(setAlerts)}
           onOpen={open}
           onToggleExpand={(s) => setExpanded((e) => (e.includes(s) ? e.filter((x) => x !== s) : [...e, s]))}
