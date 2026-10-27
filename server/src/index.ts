@@ -19,11 +19,18 @@ interface Env {
 
 const API = 'https://apps-in-toss-api.toss.im/api-partner/v1/apps-in-toss';
 
-const CORS = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'POST, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type',
-};
+// SDK 3.1.0 이상 번들의 출처 — 실서비스, 콘솔 QR 테스트 (docs '서버 API 이용하기' CORS 절)
+const ORIGINS = ['https://gongmoalarm.apps.tossmini.com', 'https://gongmoalarm.private-apps.tossmini.com'];
+
+function cors(req: Request): Record<string, string> {
+  const origin = req.headers.get('Origin') ?? '';
+  return {
+    ...(ORIGINS.includes(origin) && { 'Access-Control-Allow-Origin': origin }),
+    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    Vary: 'Origin',
+  };
+}
 
 async function tossApi(env: Env, path: string, body: unknown) {
   const res = await env.TOSS.fetch(`${API}${path}`, {
@@ -51,16 +58,16 @@ async function exchange(env: Env, code: string): Promise<string | null> {
 /** POST /sync {code, subscribed} — 알림에 동의한 사용자와 그 사람의 '청약했어요' 목록을 통째로 맞춘다 */
 async function sync(req: Request, env: Env): Promise<Response> {
   const input = parseSyncBody(await req.json().catch(() => null));
-  if (!input) return new Response('bad request', { status: 400, headers: CORS });
+  if (!input) return new Response('bad request', { status: 400, headers: cors(req) });
   const anonKey = await exchange(env, input.code);
-  if (!anonKey) return new Response('unauthorized', { status: 401, headers: CORS });
+  if (!anonKey) return new Response('unauthorized', { status: 401, headers: cors(req) });
 
   await env.DB.batch([
     env.DB.prepare('INSERT OR IGNORE INTO users (anon_key) VALUES (?)').bind(anonKey),
     env.DB.prepare('DELETE FROM subscriptions WHERE anon_key = ?').bind(anonKey),
     ...input.subscribed.map((id) => env.DB.prepare('INSERT INTO subscriptions (anon_key, ipo_id) VALUES (?, ?)').bind(anonKey, id)),
   ]);
-  return new Response(null, { status: 204, headers: CORS });
+  return new Response(null, { status: 204, headers: cors(req) });
 }
 
 /** 같은 날 같은 템플릿은 한 번만 — 수동 재실행으로 같은 알림이 두 번 가지 않게 */
@@ -96,10 +103,10 @@ async function sendToday(env: Env, now = new Date()) {
 
 export default {
   async fetch(req, env) {
-    if (req.method === 'OPTIONS') return new Response(null, { headers: CORS });
+    if (req.method === 'OPTIONS') return new Response(null, { headers: cors(req) });
     const { pathname } = new URL(req.url);
     if (req.method === 'POST' && pathname === '/sync') return sync(req, env);
-    return new Response('not found', { status: 404, headers: CORS });
+    return new Response('not found', { status: 404, headers: cors(req) });
   },
   async scheduled(controller, env) {
     await sendToday(env, new Date(controller.scheduledTime));

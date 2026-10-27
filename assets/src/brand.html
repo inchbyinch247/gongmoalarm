@@ -1,0 +1,80 @@
+<!doctype html>
+<!--
+  콘솔 등록용 로고(600×600, #logo)와 썸네일(1932×828, #thumb) 원본.
+  렌더: chrome --headless=new --window-size=<W>,<H> --force-device-scale-factor=1 --screenshot=... "file:///.../brand.html#logo"
+  서체: Pretendard (SIL OFL 1.1, github.com/orioncactus/pretendard)
+-->
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; overflow: hidden; }
+  body { font-family: 'Pretendard', -apple-system, 'Malgun Gothic', sans-serif; word-break: keep-all; letter-spacing: -0.01em; }
+  .v { display: none; }
+  .v.on { display: block; }
+
+  /* 로고: 바이올렛 바탕에 종, 오른쪽 위 작은 원은 '새 알림' */
+  #logo { width: 600px; height: 600px; background: #6d28d9; position: relative; }
+  #logo svg { position: absolute; left: 100px; top: 96px; width: 400px; height: 400px; color: #fff; }
+  #logo .dot { position: absolute; left: 356px; top: 112px; width: 116px; height: 116px; border-radius: 50%; background: #fbbf24; border: 18px solid #6d28d9; }
+
+  #thumb { width: 1932px; height: 828px; background: #6d28d9; color: #fff; position: relative; }
+  #thumb .copy { position: absolute; left: 140px; top: 210px; }
+  #thumb .name { display: flex; align-items: center; gap: 18px; margin: 0 0 36px; font-size: 40px; font-weight: 700; }
+  #thumb .name i { width: 64px; height: 64px; border-radius: 16px; background: #fff; display: grid; place-items: center; }
+  #thumb .name svg { width: 40px; height: 40px; color: #6d28d9; }
+  #thumb h1 { margin: 0; font-size: 76px; line-height: 1.28; font-weight: 700; }
+  #thumb .notis { position: absolute; right: 140px; top: 230px; width: 760px; }
+  .noti { display: flex; gap: 22px; align-items: flex-start; padding: 28px 32px; border-radius: 32px; background: #fff; color: #191f28; box-shadow: 0 20px 50px rgba(46, 16, 101, 0.35); }
+  .noti + .noti { margin-top: 24px; margin-left: 60px; margin-right: -60px; }
+  .app-icon { flex-shrink: 0; width: 72px; height: 72px; border-radius: 18px; background: #6d28d9; display: grid; place-items: center; }
+  .app-icon svg { width: 44px; height: 44px; color: #fff; }
+  .noti-body { flex: 1; }
+  .noti-top { display: flex; justify-content: space-between; font-size: 24px; color: #8b95a1; margin-bottom: 6px; }
+  .noti-title { margin: 0 0 4px; font-size: 30px; font-weight: 700; }
+  .noti-msg { margin: 0; font-size: 28px; color: #333d4b; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="bell" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.5a6.5 6.5 0 0 0-6.5 6.5v3.6l-1.7 3.1a1 1 0 0 0 .9 1.5h14.6a1 1 0 0 0 .9-1.5l-1.7-3.1V9A6.5 6.5 0 0 0 12 2.5zM9.5 18.5a2.5 2.5 0 0 0 5 0z"/></symbol>
+</svg>
+
+<div class="v" id="logo">
+  <svg><use href="#bell"/></svg>
+  <span class="dot"></span>
+</div>
+
+<div class="v" id="thumb">
+  <div class="copy">
+    <p class="name"><i><svg><use href="#bell"/></svg></i>공모주알리미</p>
+    <h1>청약 시작일과 상장일,<br />아침에 알려드려요</h1>
+  </div>
+  <div class="notis">
+    <div class="noti">
+      <div class="app-icon"><svg><use href="#bell"/></svg></div>
+      <div class="noti-body">
+        <div class="noti-top"><span>공모주알리미</span><span>오전 8:05</span></div>
+        <p class="noti-title">청약 시작</p>
+        <p class="noti-msg">동원파츠 외 1곳 청약이 오늘 시작돼요.</p>
+      </div>
+    </div>
+    <div class="noti">
+      <div class="app-icon"><svg><use href="#bell"/></svg></div>
+      <div class="noti-body">
+        <div class="noti-top"><span>공모주알리미</span><span>오전 8:05</span></div>
+        <p class="noti-title">상장일</p>
+        <p class="noti-msg">청약한 크리에이츠가 오늘 상장해요.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const id = location.hash.slice(1) || 'logo';
+  document.getElementById(id).classList.add('on');
+</script>
+</body>
+</html>

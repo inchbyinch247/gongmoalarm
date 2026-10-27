@@ -1,0 +1,233 @@
+<!doctype html>
+<!--
+  콘솔 등록용 세로 스크린샷(636×1048) 5장 원본. 주소 끝 #1~#5로 한 장씩 보여준다.
+  렌더: chrome --headless=new --window-size=636,1048 --force-device-scale-factor=1 --screenshot=... "file:///.../screenshots.html#1"
+  예시 데이터: collector/data/ipos.json(2026-10-27 수집분)의 실제 종목·일정 — 데이터가 바뀌어도 그대로 둔다(등록 화면 예시).
+  서체: Pretendard (SIL OFL 1.1, github.com/orioncactus/pretendard)
+-->
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+<style>
+  :root {
+    --brand: #6d28d9;
+    --brand-deep: #4c1d95;
+    --tint: #ede9fe;
+    --canvas: #f3f0fb;
+    --strong: #191f28;
+    --default: #333d4b;
+    --subtle: #4e5968;
+    --hint: #8b95a1;
+    --line: #e5e8eb;
+    --bg-gray: #f2f4f6;
+    --bg-strong: #dde1e6;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    width: 636px; height: 1048px; overflow: hidden;
+    font-family: 'Pretendard', -apple-system, 'Malgun Gothic', sans-serif;
+    word-break: keep-all; color: var(--strong); letter-spacing: -0.01em;
+  }
+  .slide { display: none; position: relative; width: 636px; height: 1048px; overflow: hidden; background: var(--canvas); }
+  .slide.on { display: block; }
+  .slide.dark { background: var(--brand); color: #fff; }
+
+  /* 설명 문구 */
+  .head { padding: 64px 48px 0; }
+  .kicker { display: inline-flex; align-items: center; gap: 8px; margin: 0 0 16px; padding: 6px 14px; border-radius: 999px; font-size: 17px; font-weight: 700; color: var(--brand); background: #fff; }
+  .kicker svg { width: 18px; height: 18px; }
+  h1 { margin: 0; font-size: 38px; line-height: 1.32; font-weight: 700; }
+  .sub { margin: 16px 0 0; font-size: 20px; line-height: 1.5; color: var(--subtle); }
+  .dark .sub { color: #ddd6fe; }
+
+  /* 잠금화면 알림처럼 보이는 카드 — 앱 아이콘은 공모주알리미 로고 */
+  .noti {
+    display: flex; gap: 14px; align-items: flex-start;
+    margin: 0 36px; padding: 18px 20px; border-radius: 22px;
+    background: rgba(255, 255, 255, 0.97); color: var(--strong);
+    box-shadow: 0 14px 36px rgba(46, 16, 101, 0.22);
+  }
+  .noti + .noti { margin-top: 12px; }
+  .app-icon { flex-shrink: 0; width: 44px; height: 44px; border-radius: 11px; background: var(--brand); display: grid; place-items: center; }
+  .app-icon svg { width: 26px; height: 26px; }
+  .noti-body { flex: 1; min-width: 0; }
+  .noti-top { display: flex; justify-content: space-between; font-size: 14px; color: var(--hint); margin-bottom: 4px; }
+  .noti-title { font-size: 17px; font-weight: 700; margin: 0 0 2px; }
+  .noti-msg { font-size: 16px; line-height: 1.45; color: var(--default); margin: 0; }
+
+  /* 휴대폰 화면처럼 보이는 카드 — 아래로 흘러 잘린다 */
+  .phone {
+    position: absolute; left: 48px; right: 48px; bottom: -40px;
+    padding: 28px 24px; border-radius: 32px; background: var(--bg-gray); color: var(--strong);
+    box-shadow: 0 18px 48px rgba(46, 16, 101, 0.16);
+  }
+  .p-title { margin: 0 0 16px; font-size: 24px; font-weight: 700; }
+  .card { background: #fff; border-radius: 18px; padding: 4px 18px; margin-bottom: 14px; }
+  .sec { margin: 6px 4px 10px; font-size: 16px; font-weight: 700; color: var(--subtle); }
+  .row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 15px 0; border-bottom: 1px solid var(--line); }
+  .row:last-child { border-bottom: 0; }
+  .r-title { display: flex; align-items: center; gap: 8px; font-size: 18px; font-weight: 600; color: var(--default); }
+  .r-meta { margin-top: 3px; font-size: 14px; color: var(--subtle); }
+  .chev { width: 20px; height: 20px; color: var(--hint); flex-shrink: 0; }
+  .badge { padding: 2px 8px; border-radius: 6px; font-size: 13px; font-weight: 700; color: var(--brand); background: var(--tint); }
+  .dday { font-size: 15px; font-weight: 700; color: var(--brand); }
+
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); background: #fff; border-radius: 18px; padding: 18px 8px; margin-bottom: 14px; text-align: center; }
+  .stats dt { font-size: 14px; color: var(--subtle); }
+  .stats dd { margin: 4px 0 0; font-size: 26px; font-weight: 700; }
+  .alert-row { display: flex; align-items: center; gap: 14px; background: #fff; border-radius: 18px; padding: 16px 18px; margin-bottom: 14px; }
+  .alert-row .app-icon { width: 40px; height: 40px; }
+
+  .info { display: grid; grid-template-columns: 1fr 1fr; gap: 0; background: #fff; border-radius: 18px; padding: 6px 18px; margin-bottom: 14px; }
+  .info div { padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .info div:nth-last-child(-n+2) { border-bottom: 0; }
+  .info dt { font-size: 14px; color: var(--subtle); }
+  .info dd { margin: 4px 0 0; font-size: 18px; font-weight: 700; }
+  .prose { background: #fff; border-radius: 18px; padding: 18px; margin-bottom: 14px; font-size: 16px; line-height: 1.6; color: var(--default); }
+  .cta { display: block; width: 100%; padding: 18px; border: 0; border-radius: 16px; font: inherit; font-size: 19px; font-weight: 700; color: #fff; background: var(--brand); text-align: center; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="bell" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.5a6.5 6.5 0 0 0-6.5 6.5v3.6l-1.7 3.1a1 1 0 0 0 .9 1.5h14.6a1 1 0 0 0 .9-1.5l-1.7-3.1V9A6.5 6.5 0 0 0 12 2.5zM9.5 18.5a2.5 2.5 0 0 0 5 0z"/></symbol>
+  <symbol id="chev" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 6l6 6-6 6"/></symbol>
+  <symbol id="check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+</svg>
+
+<!-- 1. 청약일 알림 -->
+<section class="slide dark" id="s1">
+  <div class="head">
+    <p class="kicker"><svg><use href="#bell"/></svg>청약일 알림</p>
+    <h1>청약이 시작되는 날<br />아침에 알려드려요</h1>
+    <p class="sub">알림을 켜 두면 그날 청약을 시작하는 공모주를 한 번에 알려드려요.</p>
+  </div>
+  <div style="margin-top:40px">
+    <div class="noti">
+      <div class="app-icon"><svg style="color:#fff"><use href="#bell"/></svg></div>
+      <div class="noti-body">
+        <div class="noti-top"><span>공모주알리미</span><span>오전 8:05</span></div>
+        <p class="noti-title">청약 시작</p>
+        <p class="noti-msg">동원파츠 외 1곳 청약이 오늘 시작돼요.</p>
+      </div>
+    </div>
+  </div>
+  <div class="phone" style="top:450px">
+    <p class="sec">청약 예정</p>
+    <div class="card">
+      <div class="row"><div><div class="r-title">동원파츠</div><div class="r-meta">코스닥 · 청약 11.2~11.3 · 공모가 확정 전</div></div><svg class="chev"><use href="#chev"/></svg></div>
+      <div class="row"><div><div class="r-title">바로팜</div><div class="r-meta">코스닥 · 청약 11.2~11.3 · 공모가 확정 전</div></div><svg class="chev"><use href="#chev"/></svg></div>
+      <div class="row"><div><div class="r-title">넥스아이</div><div class="r-meta">코스닥 · 청약 11.3~11.4 · 공모가 확정 전</div></div><svg class="chev"><use href="#chev"/></svg></div>
+      <div class="row"><div><div class="r-title">영광와이케이엠씨</div><div class="r-meta">코스닥 · 청약 11.4~11.5 · 공모가 확정 전</div></div><svg class="chev"><use href="#chev"/></svg></div>
+      <div class="row"><div><div class="r-title">옵토닉스</div><div class="r-meta">코스닥 · 청약 11.5~11.6 · 공모가 확정 전</div></div><svg class="chev"><use href="#chev"/></svg></div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. 상장일 알림 -->
+<section class="slide dark" id="s2">
+  <div class="head">
+    <p class="kicker"><svg><use href="#bell"/></svg>상장일 알림</p>
+    <h1>청약한 종목은<br />상장하는 날 다시 알려드려요</h1>
+    <p class="sub">상장일을 따로 적어 두지 않아도 돼요. 알림을 누르면 그 종목 정보로 바로 이동해요.</p>
+  </div>
+  <div style="margin-top:36px">
+    <div class="noti">
+      <div class="app-icon"><svg style="color:#fff"><use href="#bell"/></svg></div>
+      <div class="noti-body">
+        <div class="noti-top"><span>공모주알리미</span><span>오전 8:05</span></div>
+        <p class="noti-title">상장일</p>
+        <p class="noti-msg">청약한 크리에이츠가 오늘 상장해요.</p>
+      </div>
+    </div>
+  </div>
+  <div class="phone" style="top:480px">
+    <p class="p-title">내 청약 3개</p>
+    <div class="card">
+      <div class="row"><div><div class="r-title">크리에이츠</div><div class="r-meta">상장 10.29 · <span class="dday">D-2</span></div></div><svg class="chev"><use href="#chev"/></svg></div>
+      <div class="row"><div><div class="r-title">티앤이코리아</div><div class="r-meta">상장 10.29 · <span class="dday">D-2</span></div></div><svg class="chev"><use href="#chev"/></svg></div>
+      <div class="row"><div><div class="r-title">이에스티</div><div class="r-meta">상장 11.4 · <span class="dday">D-8</span></div></div><svg class="chev"><use href="#chev"/></svg></div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. 청약했어요 한 번 -->
+<section class="slide" id="s3">
+  <div class="head">
+    <p class="kicker"><svg><use href="#check"/></svg>청약했어요</p>
+    <h1>청약했다면<br />버튼 하나만 눌러 두세요</h1>
+    <p class="sub">내 청약에 모이고, 상장하는 날 아침에 알림을 받아요.</p>
+  </div>
+  <div class="phone" style="top:340px">
+    <p class="p-title">이에스티</p>
+    <p class="prose">디스플레이와 반도체 제조 공정에 쓰이는 정전척을 개발·제조·판매해요.</p>
+    <div class="info">
+      <div><dt>청약일</dt><dd>10.22~10.23</dd></div>
+      <div><dt>상장일</dt><dd>11.4</dd></div>
+      <div><dt>확정 공모가</dt><dd>12,400원</dd></div>
+      <div><dt>주관사</dt><dd>대신증권</dd></div>
+      <div><dt>유통가능 물량</dt><dd>37.68%</dd></div>
+      <div><dt>의무보유확약</dt><dd>0.24%</dd></div>
+    </div>
+        <div class="cta">청약했어요</div>
+  </div>
+</section>
+
+<!-- 4. 일정 한눈에 -->
+<section class="slide" id="s4">
+  <div class="head">
+    <p class="kicker">청약 일정</p>
+    <h1>청약 중·청약 예정·상장 예정<br />한 화면에서 확인해요</h1>
+    <p class="sub">공시에서 매일 아침 새 일정을 모아 와요.</p>
+  </div>
+  <div class="phone" style="top:340px">
+    <dl class="stats" style="margin-top:0">
+      <div><dt>이번 주 청약</dt><dd>6</dd></div>
+      <div><dt>이번 주 상장</dt><dd>3</dd></div>
+      <div><dt>내 청약</dt><dd>3</dd></div>
+    </dl>
+    <div class="alert-row">
+      <div class="app-icon"><svg style="color:#fff;width:22px;height:22px"><use href="#bell"/></svg></div>
+      <div style="flex:1"><div class="r-title">청약일·상장일 알림 받기</div><div class="r-meta">청약이 시작되는 날과 청약한 종목이 상장하는 날 아침에 알려드려요.</div></div>
+    </div>
+    <p class="sec">상장 예정</p>
+    <div class="card">
+      <div class="row"><div><div class="r-title">영광</div><div class="r-meta">코스닥 · 상장 11.2</div></div><svg class="chev"><use href="#chev"/></svg></div>
+      <div class="row"><div><div class="r-title">래블업</div><div class="r-meta">코스닥 · 상장 11.3</div></div><svg class="chev"><use href="#chev"/></svg></div>
+      <div class="row"><div><div class="r-title">이에스티<span class="badge">청약함</span></div><div class="r-meta">코스닥 · 상장 11.4</div></div><svg class="chev"><use href="#chev"/></svg></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. 핵심 정보 -->
+<section class="slide" id="s5">
+  <div class="head">
+    <p class="kicker">종목 정보</p>
+    <h1>증권신고서의 핵심만<br />골라 보여드려요</h1>
+    <p class="sub">기업 개요, 실적, 유통 물량, 확약 비율, 주관사를 출처와 함께 보여드려요.</p>
+  </div>
+  <div class="phone" style="top:360px">
+    <p class="p-title">동원파츠</p>
+    <p class="prose">반도체 장비용 샤워헤드·챔버파츠·히터 등 정밀부품을 고객 맞춤형으로 제조해요.</p>
+    <div class="info">
+      <div><dt>매출액</dt><dd>922.5억</dd></div>
+      <div><dt>영업이익</dt><dd>77.6억</dd></div>
+      <div><dt>유통가능 물량</dt><dd>29.47%</dd></div>
+      <div><dt>의무보유확약</dt><dd style="font-size:16px;color:var(--subtle)">수요예측 후 공개</dd></div>
+      <div><dt>희망 공모가</dt><dd>23,000~26,500원</dd></div>
+      <div><dt>주관사</dt><dd>삼성증권</dd></div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const show = () => {
+    const n = location.hash.slice(1) || '1';
+    document.querySelectorAll('.slide').forEach((s) => s.classList.toggle('on', s.id === 's' + n));
+  };
+  show();
+  addEventListener('hashchange', show);
+</script>
+</body>
+</html>
