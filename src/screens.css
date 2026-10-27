@@ -418,3 +418,34 @@ button.card.row {
   background: var(--color-bg-strong);
   color: var(--color-text-default);
 }
+
+.alert-emoji {
+  flex-shrink: 0;
+  font-size: 28px;
+  line-height: 1;
+}
+
+/* 종이 잠깐 흔들리고 쉬기를 반복한다 */
+.alert-emoji {
+  transform-origin: 50% 10%;
+  animation: bell-ring 2.4s ease-in-out infinite;
+}
+
+@keyframes bell-ring {
+  0%, 40%, 100% { transform: rotate(0); }
+  5% { transform: rotate(16deg); }
+  12% { transform: rotate(-14deg); }
+  19% { transform: rotate(10deg); }
+  26% { transform: rotate(-6deg); }
+  33% { transform: rotate(3deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .alert-emoji { animation: none; }
+}
+
+/* 한 줄짜리 행 — 터치 영역 44px 이상은 유지한다 */
+.row-compact {
+  min-height: 52px;
+  padding: var(--space-2) 0;
+}

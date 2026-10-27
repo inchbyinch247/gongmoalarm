@@ -54,10 +54,12 @@ export function SchedulePage({ ipos, subscribed, expanded, showAlertsCta, onEnab
       {showAlertsCta && (
         <ul className="card list">
           <li>
-            <button type="button" className="row" onClick={onEnableAlerts}>
+            <button type="button" className="row row-compact" onClick={onEnableAlerts}>
+              <span className="tf alert-emoji" aria-hidden="true">
+                🔔
+              </span>
               <span className="row-main">
                 <span className="row-title">청약일·상장일 알림 받기</span>
-                <span className="row-meta">청약이 시작되는 날과 청약한 종목이 상장하는 날 아침에 알려드려요.</span>
               </span>
               <ChevronRight size={20} />
             </button>
