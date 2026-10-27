@@ -1,0 +1,20 @@
+name = "gongmoalarm-alarm"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+[vars]
+DATA_URL = "https://raw.githubusercontent.com/inchbyinch247/gongmoalarm/main/collector/data/ipos.json"
+
+# 매일 08:05 KST — 06:00 수집 워크플로가 끝난 뒤
+[triggers]
+crons = ["5 23 * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "gongmoalarm"
+database_id = "801041fa-b6db-4d3f-a190-ebfd1126993c"
+
+[[mtls_certificates]]
+binding = "TOSS"
+# 인증서 만료 2027-11-21 — 그 전에 콘솔에서 새로 발급해 다시 올린다
+certificate_id = "c82189b9-7c28-4d9b-b9df-d1d14aaad95d"

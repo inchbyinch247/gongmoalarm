@@ -1,6 +1,6 @@
 import { Storage } from '@apps-in-toss/web-framework';
 
-// shortcut: "청약했어요" 표시는 이 기기에만 저장된다. 상장일 알림 서버가 생기면 서버 기록을 정본으로 바꾼다.
+// "청약했어요" 표시는 이 기기 저장이 정본이다 — 알림에 동의한 사용자는 바뀔 때마다 서버(상장일 알림 대상)에 통째로 맞춘다(lib/notify.ts)
 const KEY = 'gongmoalarm:subscribed:v1';
 
 export async function loadSubscribed(): Promise<string[]> {

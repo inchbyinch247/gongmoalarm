@@ -11,6 +11,7 @@
     "deploy": "ait deploy",
     "collect": "node --env-file-if-exists=.env collector/collect.ts",
     "test:collector": "node --test collector/parse.test.ts",
+    "test:server": "node --test server/src/plan.test.ts",
     "dump": "node --env-file-if-exists=.env collector/dump.ts",
     "excerpts": "node --env-file-if-exists=.env collector/excerpts.ts",
     "check-overrides": "node collector/check-overrides.ts"

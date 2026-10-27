@@ -13,6 +13,8 @@ interface Props {
   ipos: Ipo[];
   subscribed: string[];
   expanded: IpoStatus[];
+  showAlertsCta: boolean;
+  onEnableAlerts: () => void;
   onOpen: (id: string) => void;
   onToggleExpand: (status: IpoStatus) => void;
 }
@@ -23,7 +25,7 @@ function rowMeta(ipo: Ipo, status: IpoStatus) {
   return `청약 ${shortDate(ipo.subscriptionStart)}~${shortDate(ipo.subscriptionEnd)} · ${price}`;
 }
 
-export function SchedulePage({ ipos, subscribed, expanded, onOpen, onToggleExpand }: Props) {
+export function SchedulePage({ ipos, subscribed, expanded, showAlertsCta, onEnableAlerts, onOpen, onToggleExpand }: Props) {
   const groups = SECTIONS.map((s) => ({
     status: s,
     items: ipos.filter((i) => statusOf(i) === s).sort((a, b) => a.subscriptionStart.localeCompare(b.subscriptionStart)),
@@ -48,6 +50,20 @@ export function SchedulePage({ ipos, subscribed, expanded, onOpen, onToggleExpan
           </div>
         ))}
       </dl>
+
+      {showAlertsCta && (
+        <ul className="card list">
+          <li>
+            <button type="button" className="row" onClick={onEnableAlerts}>
+              <span className="row-main">
+                <span className="row-title">청약일·상장일 알림 받기</span>
+                <span className="row-meta">청약이 시작되는 날과 청약한 종목이 상장하는 날 아침에 알려드려요.</span>
+              </span>
+              <ChevronRight size={20} />
+            </button>
+          </li>
+        </ul>
+      )}
 
       {groups.length === 0 && (
         <section className="card empty">
