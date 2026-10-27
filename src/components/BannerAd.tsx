@@ -1,8 +1,8 @@
 import { isMinVersionSupported, TossAds } from '@apps-in-toss/web-framework';
 import { useEffect, useRef, useState } from 'react';
 
-// shortcut: 광고 그룹 ID가 비어 있으면 배너를 그리지 않는다. 콘솔에서 배너 광고 그룹을 만든 뒤 그 ID를 넣는다.
-export const BANNER_AD_GROUP_ID = '';
+// 콘솔 광고 그룹 '공모주알리미 하단 배너'(문구 강조형) — 홈·상세가 같이 쓴다
+export const BANNER_AD_GROUP_ID = 'ait.v2.live.060a4650360d495c';
 
 // 초기화는 앱에서 한 번만 — 두 번 부르면 '[toss-ad] Already initialized' 에러
 let initialized: Promise<boolean> | null = null;
