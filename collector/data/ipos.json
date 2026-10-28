@@ -736,13 +736,13 @@
       10000,
       13000
     ],
-    "summary": null,
+    "summary": "자동차와 가전에 쓰이는 모터와 코어·회전자·고정자 등 모터 핵심부품을 설계·제조해 공급해요.",
     "financials": {
       "year": 2025,
       "revenue": 2384.9,
       "operatingProfit": 213.3
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 코어 제작부터 완성 모터 조립까지 일괄 생산하는 제조기술과 자동차·가전에서 쌓은 양산 품질 경험을 경쟁 요소로 내세워요.",
     "floatShares": {
       "shares": 13473501,
       "ratio": 45.75
@@ -770,13 +770,13 @@
       9600,
       11700
     ],
-    "summary": null,
+    "summary": "실험 자동화 스크리닝 장비 ASFA와 신약 평가 CRO, 항암제 반응성 검사 OncoSensi를 제공해요.",
     "financials": {
       "year": 2025,
       "revenue": 15.2,
       "operatingProfit": -56.3
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 유전자 변이 여부와 관계없이 환자 세포의 실제 약물 반응을 직접 측정하고, 전 공정을 자동화해 검사 재현성을 높인 점을 차별성으로 내세워요.",
     "floatShares": {
       "shares": 4878263,
       "ratio": 34.06
@@ -793,40 +793,6 @@
     "industry": "물질 검사, 측정 및 분석 기구 제조업"
   },
   {
-    "id": "01795859",
-    "name": "엔키화이트햇",
-    "market": "코스닥",
-    "subscriptionStart": "2026-11-12",
-    "subscriptionEnd": "2026-11-13",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      13000,
-      16500
-    ],
-    "summary": null,
-    "financials": {
-      "year": 2025,
-      "revenue": 141.8,
-      "operatingProfit": 34.8
-    },
-    "competitiveness": null,
-    "floatShares": {
-      "shares": 4021887,
-      "ratio": 37.95
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "신영증권"
-    ],
-    "source": {
-      "doc": "증권신고서(지분증권)",
-      "asOf": "2026-10-08",
-      "rcptNo": "20261008000660"
-    },
-    "industry": "응용 소프트웨어 개발 및 공급업"
-  },
-  {
     "id": "01705573",
     "name": "유캐스트",
     "market": "코스닥",
@@ -838,7 +804,7 @@
       19000,
       23000
     ],
-    "summary": null,
+    "summary": "LTE·5G 이동통신 기지국과 코어망, 통합관제시스템을 개발·제조해 공공·국방 등 특화망에 공급해요.",
     "financials": {
       "year": 2025,
       "revenue": 59.3,
@@ -873,13 +839,13 @@
       31600,
       36100
     ],
-    "summary": null,
+    "summary": "OLED 발광소재와 바이오 형광소재, 반도체 포토공정용 소재를 연구·개발·생산해요.",
     "financials": {
       "year": 2026,
       "revenue": 1607.9,
       "operatingProfit": 216.7
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 분자진단용 광학소재와 올리고 합성 기술을 함께 갖춰 Probe 제품을 원재료부터 완제품까지 일괄 생산하는 수직계열화를 경쟁 요소로 내세워요.",
     "floatShares": {
       "shares": 4895920,
       "ratio": 24.17
@@ -926,11 +892,45 @@
       "미래에셋증권"
     ],
     "source": {
-      "doc": "증권신고서(지분증권)",
-      "asOf": "2026-10-12",
-      "rcptNo": "20261012000445"
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-27",
+      "rcptNo": "20261027000312"
     },
     "industry": "의학 및 약학 연구개발업"
+  },
+  {
+    "id": "01880139",
+    "name": "케이엠에프",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-24",
+    "subscriptionEnd": "2026-11-25",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      15000,
+      17800
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 257.5,
+      "operatingProfit": 143.7
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 3250187,
+      "ratio": 38.31
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "아이비케이투자증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-27",
+      "rcptNo": "20261027000388"
+    },
+    "industry": "동물용 사료 및 조제식품 제조업"
   },
   {
     "id": "01950720",
@@ -967,40 +967,6 @@
     "industry": "컴퓨터 시스템 통합 자문, 구축 및 관리업"
   },
   {
-    "id": "01880139",
-    "name": "케이엠에프",
-    "market": "코스닥",
-    "subscriptionStart": "2026-11-24",
-    "subscriptionEnd": "2026-11-25",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      15000,
-      17800
-    ],
-    "summary": null,
-    "financials": {
-      "year": 2025,
-      "revenue": 257.5,
-      "operatingProfit": 143.7
-    },
-    "competitiveness": null,
-    "floatShares": {
-      "shares": 3250187,
-      "ratio": 38.31
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "아이비케이투자증권"
-    ],
-    "source": {
-      "doc": "증권신고서(지분증권)",
-      "asOf": "2026-10-02",
-      "rcptNo": "20261002000390"
-    },
-    "industry": "동물용 사료 및 조제식품 제조업"
-  },
-  {
     "id": "01366675",
     "name": "에이엔에이치스트럭쳐",
     "market": "코스닥",
@@ -1033,6 +999,40 @@
       "rcptNo": "20261020000375"
     },
     "industry": "기타 엔지니어링 서비스업"
+  },
+  {
+    "id": "01795859",
+    "name": "엔키화이트햇",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-01",
+    "subscriptionEnd": "2026-12-02",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      13000,
+      16500
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 141.8,
+      "operatingProfit": 34.8
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 4021887,
+      "ratio": 37.95
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "신영증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-27",
+      "rcptNo": "20261027000363"
+    },
+    "industry": "응용 소프트웨어 개발 및 공급업"
   },
   {
     "id": "01783687",
