@@ -260,7 +260,7 @@
       "revenue": 234.5,
       "operatingProfit": -18.1
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 무급유 베어링 기술과 고속 전력전자 기술을 융합하고, 설계부터 핵심 부품 제조까지 전 과정을 직접 수행하는 점을 경쟁 요소로 내세워요.",
     "floatShares": {
       "shares": 3551856,
       "ratio": 31.27
@@ -295,7 +295,7 @@
       "revenue": 466.4,
       "operatingProfit": 48.8
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 VIX 2.0 엔진, Gen AMS 플랫폼, On-device AI 하드웨어를 모두 갖춘 풀스택 구조를 경쟁 요소로 내세워요. 2024년 7월 국내 기업 최초로 AI 경영시스템 국제표준(ISO 42001)을 획득했다고 설명해요.",
     "floatShares": {
       "shares": 2715067,
       "ratio": 23.95
@@ -330,7 +330,7 @@
       "revenue": 354.2,
       "operatingProfit": -0.7
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 디스플레이용 대면적·모듈형부터 반도체용까지 갖춘 정전척 토탈 솔루션과 고객 공정 조건에 맞춘 기술 대응 역량을 경쟁 요소로 내세워요. 주요 특허를 국내 47건, 해외 4건 등록했다고 설명해요.",
     "floatShares": {
       "shares": 5243400,
       "ratio": 37.68
@@ -469,7 +469,7 @@
       "revenue": 967.2,
       "operatingProfit": -39.3
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 서로 다른 전산 규격의 다수 도매업체 재고·가격을 연동·표준화해 한 화면에서 비교·주문하게 하는 점을 경쟁 요소로 내세워요. 플랫폼에서 쌓이는 거래 데이터를 사업 전반에 활용하는 선순환 구조도 강조해요.",
     "floatShares": {
       "shares": 3629716,
       "ratio": 30.38
@@ -810,7 +810,7 @@
       "revenue": 59.3,
       "operatingProfit": -18.3
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 기지국과 코어망의 하드웨어·소프트웨어 설계부터 조립, 유지보수까지 자체 원천기술로 일괄 수행하는 풀스택 구조를 경쟁 요소로 내세워요.",
     "floatShares": {
       "shares": 5973910,
       "ratio": 36.81
@@ -875,13 +875,13 @@
       18000,
       25000
     ],
-    "summary": null,
+    "summary": "알츠하이머병 등 퇴행성 뇌질환을 겨냥한 병리 특이적 항체 치료제를 연구개발해요.",
     "financials": {
       "year": 2025,
       "revenue": 620.6,
       "operatingProfit": 494.2
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 표적 단백질의 병리 특이적 형태(PSF)만 선택적으로 인식하는 항체 설계 접근을 차별점으로 내세워요. 이를 acK280 타우, ApoE4, 유리형 β2m 등 세 가지 표적으로 확장했다고 설명해요.",
     "floatShares": {
       "shares": 7861700,
       "ratio": 36.29
@@ -910,13 +910,13 @@
       15000,
       17800
     ],
-    "summary": null,
+    "summary": "발효 기술로 효소·콤부차·애플사이다비니거 등 기능성 식품 소재를 개발·생산하고 OEM/ODM을 수행해요.",
     "financials": {
       "year": 2025,
       "revenue": 257.5,
       "operatingProfit": 143.7
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 발효 기술에 TDS 전달 기술을 결합해 소재의 안정성과 제형 적용성을 높이고, 원료 개발부터 완제품 생산까지 잇는 수직계열화를 경쟁 요소로 내세워요.",
     "floatShares": {
       "shares": 3250187,
       "ratio": 38.31
@@ -944,13 +944,13 @@
       9700,
       12200
     ],
-    "summary": null,
+    "summary": "기업용 생성형 AI 통합 플랫폼 GenOS를 자체 개발해 기업·기관 고객에 공급해요.",
     "financials": {
       "year": 2025,
       "revenue": 117.4,
       "operatingProfit": 7
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 보안과 운영 통제력을 갖춘 전문 플랫폼이라는 점과, 폐쇄망 환경에서 다수의 산업별 최초 상용화 레퍼런스를 보유한 점을 경쟁 요소로 내세워요.",
     "floatShares": {
       "shares": 4166180,
       "ratio": 29.07
@@ -1136,5 +1136,73 @@
       "rcptNo": "20261019000343"
     },
     "industry": "알루미늄 제련, 정련 및 합금 제조업"
+  },
+  {
+    "id": "01135039",
+    "name": "데스틴파워",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-14",
+    "subscriptionEnd": "2026-12-15",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      8000,
+      11000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 298.5,
+      "operatingProfit": 16.5
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 5841640,
+      "ratio": 40.12
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "한국투자증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-10-28",
+      "rcptNo": "20261028000434"
+    },
+    "industry": "전동기, 발전기 및 전기 변환장치 제조업"
+  },
+  {
+    "id": "00208709",
+    "name": "KTE",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-14",
+    "subscriptionEnd": "2026-12-15",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      19000,
+      23000
+    ],
+    "summary": null,
+    "financials": {
+      "year": 2025,
+      "revenue": 1739,
+      "operatingProfit": 179.2
+    },
+    "competitiveness": null,
+    "floatShares": {
+      "shares": 2816000,
+      "ratio": 24.99
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "NH투자증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-10-28",
+      "rcptNo": "20261028000336"
+    },
+    "industry": "배전반 및 전기 자동제어반 제조업"
   }
 ]
