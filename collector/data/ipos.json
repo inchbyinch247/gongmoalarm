@@ -1,36 +1,5 @@
 [
   {
-    "id": "01564514",
-    "name": "글로벌테크놀로지",
-    "market": "코스닥",
-    "subscriptionStart": "2026-09-16",
-    "subscriptionEnd": "2026-09-17",
-    "listingDate": "2026-09-29",
-    "offerPrice": 10000,
-    "priceBand": [
-      13000,
-      15000
-    ],
-    "summary": null,
-    "financials": null,
-    "competitiveness": null,
-    "floatShares": {
-      "shares": 4359571,
-      "ratio": 22.26
-    },
-    "lockupRatio": 0.27,
-    "underwriters": [
-      "한국투자증권"
-    ],
-    "source": {
-      "doc": "[발행조건확정]증권신고서(지분증권)",
-      "asOf": "2026-09-15",
-      "rcptNo": "20260908000396",
-      "confirmRcptNo": "20260915000237"
-    },
-    "industry": "비메모리용 및 기타 전자집적회로 제조업"
-  },
-  {
     "id": "01028933",
     "name": "멜콘",
     "market": "코스닥",
@@ -560,7 +529,7 @@
     "subscriptionStart": "2026-11-05",
     "subscriptionEnd": "2026-11-06",
     "listingDate": null,
-    "offerPrice": null,
+    "offerPrice": 12000,
     "priceBand": [
       10000,
       12000
@@ -576,14 +545,15 @@
       "shares": 2172890,
       "ratio": 22.71
     },
-    "lockupRatio": null,
+    "lockupRatio": 5.62,
     "underwriters": [
       "한국투자증권"
     ],
     "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-21",
-      "rcptNo": "20261021000210"
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-29",
+      "rcptNo": "20261021000210",
+      "confirmRcptNo": "20261029000504"
     },
     "industry": "광학 렌즈 및 광학 요소 제조업"
   },
@@ -978,13 +948,13 @@
       11200,
       13600
     ],
-    "summary": null,
+    "summary": "무인기·군용기 기체구조와 항공기 객실 제품, 우주 복합재 구조물을 설계부터 제작·시험·인증까지 일괄 제공해요.",
     "financials": {
       "year": 2025,
       "revenue": 213.6,
       "operatingProfit": -0.1
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 전주기 인증 체계와 복합재 하이레이트 양산 역량을 후발주자와의 격차를 만드는 경쟁 요소로 내세워요. 국내 최초·유일의 EASA 설계조직인증(DOA) 보유도 강조해요.",
     "floatShares": {
       "shares": 3045747,
       "ratio": 29.49
@@ -1012,13 +982,13 @@
       13000,
       16500
     ],
-    "summary": null,
+    "summary": "공격자 관점의 오펜시브 보안 기술로 공격표면관리·모의해킹 플랫폼 OFFen과 보안 서비스, 교육 플랫폼 CAMP를 공급해요.",
     "financials": {
       "year": 2025,
       "revenue": 141.8,
       "operatingProfit": 34.8
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 공격표면관리와 서비스형 모의해킹을 통합한 OFFen으로 일회성 점검의 한계를 넘어 상시적인 보안 수준 관리 체계를 구축하는 점을 핵심 강점으로 내세워요.",
     "floatShares": {
       "shares": 4021887,
       "ratio": 37.95
@@ -1046,13 +1016,13 @@
       20000,
       24000
     ],
-    "summary": null,
+    "summary": "AI 신약연구 플랫폼 DeepZema를 활용해 면역·염증, 섬유증, 암 분야의 합성신약을 연구개발해요.",
     "financials": {
       "year": 2025,
       "revenue": 2.1,
       "operatingProfit": -110.5
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 자체 실험 데이터와 AI 예측을 결합한 연구체계를 유사 AI 신약개발 플랫폼 대비 차별점으로 내세워요. INV-008의 개발후보물질을 약 1.5년 만에 도출했다고 설명해요.",
     "floatShares": {
       "shares": 3600652,
       "ratio": 25.46
@@ -1080,13 +1050,13 @@
       10000,
       13000
     ],
-    "summary": null,
+    "summary": "제조 현장에 AI를 적용하는 AX 솔루션과 자율제조 플랫폼, 관련 컨설팅을 개발·공급해요.",
     "financials": {
       "year": 2025,
       "revenue": 86.4,
       "operatingProfit": -82.8
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 현장 데이터 인지부터 AI 의사결정, 디지털 트윈 제어까지 다크 팩토리 구현에 필요한 풀스택 기술력을 경쟁 요소로 내세워요. 200여 건 이상의 제조 AI 프로젝트 수행 실적도 강조해요.",
     "floatShares": {
       "shares": 5474628,
       "ratio": 37.5
@@ -1115,13 +1085,13 @@
       5400,
       6800
     ],
-    "summary": null,
+    "summary": "재활용 원료에서 리튬·니켈·코발트를 회수·정제해 재생 탄산리튬과 재생 MHP를 만들고, 고순도 알루미나 등 첨단 소재를 가공해요.",
     "financials": {
       "year": 2025,
       "revenue": 159.8,
       "operatingProfit": -102.6
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 다양한 종류와 농도의 리튬 함유 원료를 처리하는 기술 역량을 내세워요. 리튬 회수공정의 회수율이 98% 이상이고, 니켈·코발트가 없는 LFP계 원료에서도 리튬을 회수한다고 설명해요.",
     "floatShares": {
       "shares": 11658971,
       "ratio": 37.71
@@ -1149,13 +1119,13 @@
       8000,
       11000
     ],
-    "summary": null,
+    "summary": "발전용 연료전지 인버터와 ESS용 전력변환장치(PCS), 수전해 정류기를 설계·제조해 공급해요.",
     "financials": {
       "year": 2025,
       "revenue": 298.5,
       "operatingProfit": 16.5
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 두산퓨얼셀 PAFC 발전시스템용 인버터 전량 공급과 UL 1741 SA·SB 인증 등 다년간의 공급 실적을 경쟁 요소로 내세워요. 인증과 현장 운전 실적이 필요해 신규 사업자에게 진입장벽이 된다고 설명해요.",
     "floatShares": {
       "shares": 5841640,
       "ratio": 40.12
@@ -1183,13 +1153,13 @@
       19000,
       23000
     ],
-    "summary": null,
+    "summary": "선박용·육상용 배전반과 사이드 스러스터, 잠수함·함정용 방산 전력장비를 제작하고 정비 서비스를 제공해요.",
     "financials": {
       "year": 2025,
       "revenue": 1739,
       "operatingProfit": 179.2
     },
-    "competitiveness": null,
+    "competitiveness": "신고서에서는 비표준·특수 사양에 대응하는 설계 능력을 기술적 진입장벽으로 내세워요. 창립 이래 누적 2,500척분 이상의 주 배전반 및 제어장치를 공급한 실적도 강조해요.",
     "floatShares": {
       "shares": 2816000,
       "ratio": 24.99
