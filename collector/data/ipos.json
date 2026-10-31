@@ -387,13 +387,48 @@
     "industry": "수상 금속 골조 구조재 제조업"
   },
   {
+    "id": "01835829",
+    "name": "바로팜",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-02",
+    "subscriptionEnd": "2026-11-03",
+    "listingDate": null,
+    "offerPrice": 16400,
+    "priceBand": [
+      16400,
+      20200
+    ],
+    "summary": "약국이 여러 도매상의 의약품을 비교·주문·결제할 수 있는 통합 플랫폼 '바로팜'을 운영해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 967.2,
+      "operatingProfit": -39.3
+    },
+    "competitiveness": "신고서에서는 서로 다른 전산 규격의 다수 도매업체 재고·가격을 연동·표준화해 한 화면에서 비교·주문하게 하는 점을 경쟁 요소로 내세워요. 플랫폼에서 쌓이는 거래 데이터를 사업 전반에 활용하는 선순환 구조도 강조해요.",
+    "floatShares": {
+      "shares": 3629716,
+      "ratio": 30.38
+    },
+    "lockupRatio": 0,
+    "underwriters": [
+      "미래에셋증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-30",
+      "rcptNo": "20261015000345",
+      "confirmRcptNo": "20261030000396"
+    },
+    "industry": "전자상거래 소매 중개업"
+  },
+  {
     "id": "00784184",
     "name": "동원파츠",
     "market": "코스닥",
     "subscriptionStart": "2026-11-02",
     "subscriptionEnd": "2026-11-03",
     "listingDate": "2026-11-10",
-    "offerPrice": null,
+    "offerPrice": 26500,
     "priceBand": [
       23000,
       26500
@@ -414,45 +449,12 @@
       "삼성증권"
     ],
     "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-23",
-      "rcptNo": "20261023000331"
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-30",
+      "rcptNo": "20261023000331",
+      "confirmRcptNo": "20261030000113"
     },
     "industry": "반도체 제조용 기계 제조업"
-  },
-  {
-    "id": "01835829",
-    "name": "바로팜",
-    "market": "코스닥",
-    "subscriptionStart": "2026-11-02",
-    "subscriptionEnd": "2026-11-03",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      16400,
-      20200
-    ],
-    "summary": "약국이 여러 도매상의 의약품을 비교·주문·결제할 수 있는 통합 플랫폼 '바로팜'을 운영해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 967.2,
-      "operatingProfit": -39.3
-    },
-    "competitiveness": "신고서에서는 서로 다른 전산 규격의 다수 도매업체 재고·가격을 연동·표준화해 한 화면에서 비교·주문하게 하는 점을 경쟁 요소로 내세워요. 플랫폼에서 쌓이는 거래 데이터를 사업 전반에 활용하는 선순환 구조도 강조해요.",
-    "floatShares": {
-      "shares": 3629716,
-      "ratio": 30.38
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "미래에셋증권"
-    ],
-    "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-15",
-      "rcptNo": "20261015000345"
-    },
-    "industry": "전자상거래 소매 중개업"
   },
   {
     "id": "01863318",
@@ -461,7 +463,7 @@
     "subscriptionStart": "2026-11-03",
     "subscriptionEnd": "2026-11-04",
     "listingDate": "2026-11-12",
-    "offerPrice": null,
+    "offerPrice": 8000,
     "priceBand": [
       10500,
       13000
@@ -477,14 +479,15 @@
       "shares": 16947525,
       "ratio": 37.03
     },
-    "lockupRatio": null,
+    "lockupRatio": 0.06,
     "underwriters": [
       "한국투자증권"
     ],
     "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-16",
-      "rcptNo": "20261016000268"
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-30",
+      "rcptNo": "20261016000268",
+      "confirmRcptNo": "20261030000467"
     },
     "industry": "의학 및 약학 연구개발업"
   },
@@ -516,9 +519,9 @@
       "대신증권"
     ],
     "source": {
-      "doc": "증권신고서(지분증권)",
-      "asOf": "2026-10-08",
-      "rcptNo": "20261008000649"
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-30",
+      "rcptNo": "20261030000616"
     },
     "industry": "그 외 기타 금속 가공업"
   },
@@ -586,8 +589,8 @@
     ],
     "source": {
       "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-12",
-      "rcptNo": "20261012000490"
+      "asOf": "2026-10-30",
+      "rcptNo": "20261030000140"
     },
     "industry": "기타 기계 및 장비 제조업"
   },
@@ -624,40 +627,6 @@
       "rcptNo": "20261016000159"
     },
     "industry": "항공기용 부품 제조업"
-  },
-  {
-    "id": "01706509",
-    "name": "다비오",
-    "market": "코스닥",
-    "subscriptionStart": "2026-11-10",
-    "subscriptionEnd": "2026-11-11",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      12300,
-      16600
-    ],
-    "summary": "위성·항공·드론 영상을 AI로 분석하는 공간데이터 플랫폼 Eartheye를 개발해 분석 데이터와 솔루션을 공급해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 92.6,
-      "operatingProfit": -44.5
-    },
-    "competitiveness": "신고서에서는 공통 핵심기술을 조합해 여러 산업에 적용하는 orchestration 구조와 IEEE TGRS 등 국제 저널 논문 게재 실적을 경쟁 요소로 내세워요.",
-    "floatShares": {
-      "shares": 3322710,
-      "ratio": 38.88
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "대신증권"
-    ],
-    "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-08",
-      "rcptNo": "20261008000705"
-    },
-    "industry": "응용 소프트웨어 개발 및 공급업"
   },
   {
     "id": "01403198",
@@ -969,6 +938,40 @@
       "rcptNo": "20261020000375"
     },
     "industry": "기타 엔지니어링 서비스업"
+  },
+  {
+    "id": "01706509",
+    "name": "다비오",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-01",
+    "subscriptionEnd": "2026-12-02",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      12300,
+      16600
+    ],
+    "summary": "위성·항공·드론 영상을 AI로 분석하는 공간데이터 플랫폼 Eartheye를 개발해 분석 데이터와 솔루션을 공급해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 92.6,
+      "operatingProfit": -44.5
+    },
+    "competitiveness": "신고서에서는 공통 핵심기술을 조합해 여러 산업에 적용하는 orchestration 구조와 IEEE TGRS 등 국제 저널 논문 게재 실적을 경쟁 요소로 내세워요.",
+    "floatShares": {
+      "shares": 3322710,
+      "ratio": 38.88
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "대신증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-10-30",
+      "rcptNo": "20261030000682"
+    },
+    "industry": "응용 소프트웨어 개발 및 공급업"
   },
   {
     "id": "01795859",
