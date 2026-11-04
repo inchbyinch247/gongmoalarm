@@ -392,7 +392,7 @@
     "market": "코스닥",
     "subscriptionStart": "2026-11-02",
     "subscriptionEnd": "2026-11-03",
-    "listingDate": null,
+    "listingDate": "2026-11-11",
     "offerPrice": 16400,
     "priceBand": [
       16400,
@@ -498,7 +498,7 @@
     "subscriptionStart": "2026-11-04",
     "subscriptionEnd": "2026-11-05",
     "listingDate": null,
-    "offerPrice": null,
+    "offerPrice": 11000,
     "priceBand": [
       9400,
       11000
@@ -514,14 +514,15 @@
       "shares": 5041041,
       "ratio": 34.86
     },
-    "lockupRatio": null,
+    "lockupRatio": 7.21,
     "underwriters": [
       "대신증권"
     ],
     "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-30",
-      "rcptNo": "20261030000616"
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-11-03",
+      "rcptNo": "20261030000616",
+      "confirmRcptNo": "20261103000312"
     },
     "industry": "그 외 기타 금속 가공업"
   },
@@ -629,6 +630,40 @@
     "industry": "항공기용 부품 제조업"
   },
   {
+    "id": "00618173",
+    "name": "씨앤엠",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-12",
+    "subscriptionEnd": "2026-11-13",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      10000,
+      13000
+    ],
+    "summary": "자동차와 가전에 쓰이는 모터와 코어·회전자·고정자 등 모터 핵심부품을 설계·제조해 공급해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 2384.9,
+      "operatingProfit": 213.3
+    },
+    "competitiveness": "신고서에서는 코어 제작부터 완성 모터 조립까지 일괄 생산하는 제조기술과 자동차·가전에서 쌓은 양산 품질 경험을 경쟁 요소로 내세워요.",
+    "floatShares": {
+      "shares": 13473501,
+      "ratio": 45.75
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "한국투자증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-03",
+      "rcptNo": "20261103000363"
+    },
+    "industry": "전동기 및 발전기 제조업"
+  },
+  {
     "id": "01403198",
     "name": "제이앤티지",
     "market": "코스닥",
@@ -662,40 +697,6 @@
       "rcptNo": "20261016000426"
     },
     "industry": "그 외 자동차용 신품 부품 제조업"
-  },
-  {
-    "id": "00618173",
-    "name": "씨앤엠",
-    "market": "코스닥",
-    "subscriptionStart": "2026-11-12",
-    "subscriptionEnd": "2026-11-13",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      10000,
-      13000
-    ],
-    "summary": "자동차와 가전에 쓰이는 모터와 코어·회전자·고정자 등 모터 핵심부품을 설계·제조해 공급해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 2384.9,
-      "operatingProfit": 213.3
-    },
-    "competitiveness": "신고서에서는 코어 제작부터 완성 모터 조립까지 일괄 생산하는 제조기술과 자동차·가전에서 쌓은 양산 품질 경험을 경쟁 요소로 내세워요.",
-    "floatShares": {
-      "shares": 13473501,
-      "ratio": 45.75
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "한국투자증권"
-    ],
-    "source": {
-      "doc": "증권신고서(지분증권)",
-      "asOf": "2026-10-16",
-      "rcptNo": "20261016000412"
-    },
-    "industry": "전동기 및 발전기 제조업"
   },
   {
     "id": "01705740",
@@ -933,11 +934,45 @@
       "NH투자증권"
     ],
     "source": {
-      "doc": "증권신고서(지분증권)",
-      "asOf": "2026-10-20",
-      "rcptNo": "20261020000375"
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-03",
+      "rcptNo": "20261103000106"
     },
     "industry": "기타 엔지니어링 서비스업"
+  },
+  {
+    "id": "01795859",
+    "name": "엔키화이트햇",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-01",
+    "subscriptionEnd": "2026-12-02",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      13000,
+      16500
+    ],
+    "summary": "공격자 관점의 오펜시브 보안 기술로 공격표면관리·모의해킹 플랫폼 OFFen과 보안 서비스, 교육 플랫폼 CAMP를 공급해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 141.8,
+      "operatingProfit": 34.8
+    },
+    "competitiveness": "신고서에서는 공격표면관리와 서비스형 모의해킹을 통합한 OFFen으로 일회성 점검의 한계를 넘어 상시적인 보안 수준 관리 체계를 구축하는 점을 핵심 강점으로 내세워요.",
+    "floatShares": {
+      "shares": 4021887,
+      "ratio": 37.95
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "신영증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-03",
+      "rcptNo": "20261103000358"
+    },
+    "industry": "응용 소프트웨어 개발 및 공급업"
   },
   {
     "id": "01706509",
@@ -970,40 +1005,6 @@
       "doc": "[기재정정]증권신고서(지분증권)",
       "asOf": "2026-10-30",
       "rcptNo": "20261030000682"
-    },
-    "industry": "응용 소프트웨어 개발 및 공급업"
-  },
-  {
-    "id": "01795859",
-    "name": "엔키화이트햇",
-    "market": "코스닥",
-    "subscriptionStart": "2026-12-01",
-    "subscriptionEnd": "2026-12-02",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      13000,
-      16500
-    ],
-    "summary": "공격자 관점의 오펜시브 보안 기술로 공격표면관리·모의해킹 플랫폼 OFFen과 보안 서비스, 교육 플랫폼 CAMP를 공급해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 141.8,
-      "operatingProfit": 34.8
-    },
-    "competitiveness": "신고서에서는 공격표면관리와 서비스형 모의해킹을 통합한 OFFen으로 일회성 점검의 한계를 넘어 상시적인 보안 수준 관리 체계를 구축하는 점을 핵심 강점으로 내세워요.",
-    "floatShares": {
-      "shares": 4021887,
-      "ratio": 37.95
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "신영증권"
-    ],
-    "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-27",
-      "rcptNo": "20261027000363"
     },
     "industry": "응용 소프트웨어 개발 및 공급업"
   },
