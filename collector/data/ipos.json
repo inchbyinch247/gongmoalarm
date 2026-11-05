@@ -568,7 +568,7 @@
     "subscriptionStart": "2026-11-06",
     "subscriptionEnd": "2026-11-09",
     "listingDate": "2026-11-18",
-    "offerPrice": null,
+    "offerPrice": 17600,
     "priceBand": [
       15700,
       17600
@@ -584,14 +584,15 @@
       "shares": 4218360,
       "ratio": 35.01
     },
-    "lockupRatio": null,
+    "lockupRatio": 1.13,
     "underwriters": [
       "대신증권"
     ],
     "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-30",
-      "rcptNo": "20261030000140"
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-11-04",
+      "rcptNo": "20261030000140",
+      "confirmRcptNo": "20261104000314"
     },
     "industry": "기타 기계 및 장비 제조업"
   },
@@ -630,6 +631,41 @@
     "industry": "항공기용 부품 제조업"
   },
   {
+    "id": "01403198",
+    "name": "제이앤티지",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-12",
+    "subscriptionEnd": "2026-11-13",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      26400,
+      31900
+    ],
+    "summary": "비리튬계 ESS용 탄소전극과 연료전지 기체확산층, 수전해용 탄소기재 등 탄소 소재·부품을 개발·제조해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 723.8,
+      "operatingProfit": 213.3
+    },
+    "competitiveness": "신고서에서는 탄소전극과 기체확산층의 전 공정 내재화, 등록특허 29건, Roll-to-Roll 연속 생산체계를 경쟁 요소로 내세워요.",
+    "floatShares": {
+      "shares": 5482794,
+      "ratio": 28.98
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "대신증권",
+      "NH투자증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-04",
+      "rcptNo": "20261104000145"
+    },
+    "industry": "그 외 자동차용 신품 부품 제조업"
+  },
+  {
     "id": "00618173",
     "name": "씨앤엠",
     "market": "코스닥",
@@ -662,41 +698,6 @@
       "rcptNo": "20261103000363"
     },
     "industry": "전동기 및 발전기 제조업"
-  },
-  {
-    "id": "01403198",
-    "name": "제이앤티지",
-    "market": "코스닥",
-    "subscriptionStart": "2026-11-12",
-    "subscriptionEnd": "2026-11-13",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      26400,
-      31900
-    ],
-    "summary": "비리튬계 ESS용 탄소전극과 연료전지 기체확산층, 수전해용 탄소기재 등 탄소 소재·부품을 개발·제조해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 723.8,
-      "operatingProfit": 213.3
-    },
-    "competitiveness": "신고서에서는 탄소전극과 기체확산층의 전 공정 내재화, 등록특허 29건, Roll-to-Roll 연속 생산체계를 경쟁 요소로 내세워요.",
-    "floatShares": {
-      "shares": 5482794,
-      "ratio": 28.98
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "대신증권",
-      "NH투자증권"
-    ],
-    "source": {
-      "doc": "증권신고서(지분증권)",
-      "asOf": "2026-10-16",
-      "rcptNo": "20261016000426"
-    },
-    "industry": "그 외 자동차용 신품 부품 제조업"
   },
   {
     "id": "01705740",
@@ -733,6 +734,42 @@
     "industry": "물질 검사, 측정 및 분석 기구 제조업"
   },
   {
+    "id": "00299109",
+    "name": "에스에프씨",
+    "market": "코스피",
+    "subscriptionStart": "2026-11-18",
+    "subscriptionEnd": "2026-11-19",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      31600,
+      36100
+    ],
+    "summary": "OLED 발광소재와 바이오 형광소재, 반도체 포토공정용 소재를 연구·개발·생산해요.",
+    "financials": {
+      "year": 2026,
+      "revenue": 1607.9,
+      "operatingProfit": 216.7
+    },
+    "competitiveness": "신고서에서는 분자진단용 광학소재와 올리고 합성 기술을 함께 갖춰 Probe 제품을 원재료부터 완제품까지 일괄 생산하는 수직계열화를 경쟁 요소로 내세워요.",
+    "floatShares": {
+      "shares": 4895920,
+      "ratio": 24.17
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "미래에셋증권",
+      "한국투자증권",
+      "삼성증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-04",
+      "rcptNo": "20261104000099"
+    },
+    "industry": "그 외 기타 분류 안된 화학제품 제조업"
+  },
+  {
     "id": "01705573",
     "name": "유캐스트",
     "market": "코스닥",
@@ -766,42 +803,6 @@
       "rcptNo": "20261021000443"
     },
     "industry": "기타 무선 통신장비 제조업"
-  },
-  {
-    "id": "00299109",
-    "name": "에스에프씨",
-    "market": "코스피",
-    "subscriptionStart": "2026-11-18",
-    "subscriptionEnd": "2026-11-19",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      31600,
-      36100
-    ],
-    "summary": "OLED 발광소재와 바이오 형광소재, 반도체 포토공정용 소재를 연구·개발·생산해요.",
-    "financials": {
-      "year": 2026,
-      "revenue": 1607.9,
-      "operatingProfit": 216.7
-    },
-    "competitiveness": "신고서에서는 분자진단용 광학소재와 올리고 합성 기술을 함께 갖춰 Probe 제품을 원재료부터 완제품까지 일괄 생산하는 수직계열화를 경쟁 요소로 내세워요.",
-    "floatShares": {
-      "shares": 4895920,
-      "ratio": 24.17
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "미래에셋증권",
-      "한국투자증권",
-      "삼성증권"
-    ],
-    "source": {
-      "doc": "증권신고서(지분증권)",
-      "asOf": "2026-10-19",
-      "rcptNo": "20261019000368"
-    },
-    "industry": "그 외 기타 분류 안된 화학제품 제조업"
   },
   {
     "id": "01938746",
