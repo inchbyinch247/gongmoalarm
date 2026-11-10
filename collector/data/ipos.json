@@ -497,7 +497,7 @@
     "market": "코스닥",
     "subscriptionStart": "2026-11-04",
     "subscriptionEnd": "2026-11-05",
-    "listingDate": null,
+    "listingDate": "2026-11-16",
     "offerPrice": 11000,
     "priceBand": [
       9400,
@@ -603,7 +603,7 @@
     "subscriptionStart": "2026-11-10",
     "subscriptionEnd": "2026-11-11",
     "listingDate": null,
-    "offerPrice": null,
+    "offerPrice": 5700,
     "priceBand": [
       4700,
       5700
@@ -619,14 +619,15 @@
       "shares": 5465381,
       "ratio": 30.83
     },
-    "lockupRatio": null,
+    "lockupRatio": 4.16,
     "underwriters": [
       "아이비케이투자증권"
     ],
     "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-16",
-      "rcptNo": "20261016000159"
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-11-09",
+      "rcptNo": "20261109000048",
+      "confirmRcptNo": "20261109000163"
     },
     "industry": "항공기용 부품 제조업"
   },
@@ -1037,9 +1038,9 @@
       "한국투자증권"
     ],
     "source": {
-      "doc": "증권신고서(지분증권)",
-      "asOf": "2026-10-21",
-      "rcptNo": "20261021000153"
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-09",
+      "rcptNo": "20261109000160"
     },
     "industry": "의학 및 약학 연구개발업"
   },
