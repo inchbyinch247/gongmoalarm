@@ -532,7 +532,7 @@
     "market": "코스닥",
     "subscriptionStart": "2026-11-05",
     "subscriptionEnd": "2026-11-06",
-    "listingDate": null,
+    "listingDate": "2026-11-17",
     "offerPrice": 12000,
     "priceBand": [
       10000,
@@ -632,6 +632,41 @@
     "industry": "항공기용 부품 제조업"
   },
   {
+    "id": "01705740",
+    "name": "엠비디",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-12",
+    "subscriptionEnd": "2026-11-13",
+    "listingDate": null,
+    "offerPrice": 7000,
+    "priceBand": [
+      9600,
+      11700
+    ],
+    "summary": "실험 자동화 스크리닝 장비 ASFA와 신약 평가 CRO, 항암제 반응성 검사 OncoSensi를 제공해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 15.2,
+      "operatingProfit": -56.3
+    },
+    "competitiveness": "신고서에서는 유전자 변이 여부와 관계없이 환자 세포의 실제 약물 반응을 직접 측정하고, 전 공정을 자동화해 검사 재현성을 높인 점을 차별성으로 내세워요.",
+    "floatShares": {
+      "shares": 4878263,
+      "ratio": 34.06
+    },
+    "lockupRatio": 0,
+    "underwriters": [
+      "하나증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-11-10",
+      "rcptNo": "20261015000329",
+      "confirmRcptNo": "20261110000253"
+    },
+    "industry": "물질 검사, 측정 및 분석 기구 제조업"
+  },
+  {
     "id": "01403198",
     "name": "제이앤티지",
     "market": "코스닥",
@@ -699,40 +734,6 @@
       "rcptNo": "20261103000363"
     },
     "industry": "전동기 및 발전기 제조업"
-  },
-  {
-    "id": "01705740",
-    "name": "엠비디",
-    "market": "코스닥",
-    "subscriptionStart": "2026-11-12",
-    "subscriptionEnd": "2026-11-13",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      9600,
-      11700
-    ],
-    "summary": "실험 자동화 스크리닝 장비 ASFA와 신약 평가 CRO, 항암제 반응성 검사 OncoSensi를 제공해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 15.2,
-      "operatingProfit": -56.3
-    },
-    "competitiveness": "신고서에서는 유전자 변이 여부와 관계없이 환자 세포의 실제 약물 반응을 직접 측정하고, 전 공정을 자동화해 검사 재현성을 높인 점을 차별성으로 내세워요.",
-    "floatShares": {
-      "shares": 4878263,
-      "ratio": 34.06
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "하나증권"
-    ],
-    "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-15",
-      "rcptNo": "20261015000329"
-    },
-    "industry": "물질 검사, 측정 및 분석 기구 제조업"
   },
   {
     "id": "00299109",
@@ -1043,6 +1044,41 @@
       "rcptNo": "20261109000160"
     },
     "industry": "의학 및 약학 연구개발업"
+  },
+  {
+    "id": "01136597",
+    "name": "마더스제약",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-08",
+    "subscriptionEnd": "2026-12-09",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      11000,
+      14500
+    ],
+    "summary": "고지혈증·당뇨병 치료제 등 전문의약품을 제조·판매하고, 타 제약사의 의약품을 수탁생산(CMO)해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 2288.3,
+      "operatingProfit": 136.9
+    },
+    "competitiveness": "신고서에서는 제형 기술과 자체 제품 개발, 수탁생산을 병행하는 사업 모델과 중소 제약사로서 비교적 이른 시기에 구축한 R&D 체계를 경쟁 요소로 내세워요.",
+    "floatShares": {
+      "shares": 6905080,
+      "ratio": 46.53
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "케이비증권",
+      "NH투자증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-11-10",
+      "rcptNo": "20261110000330"
+    },
+    "industry": "완제 의약품 제조업"
   },
   {
     "id": "01860700",
