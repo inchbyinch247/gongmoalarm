@@ -602,7 +602,7 @@
     "market": "코스닥",
     "subscriptionStart": "2026-11-10",
     "subscriptionEnd": "2026-11-11",
-    "listingDate": null,
+    "listingDate": "2026-11-20",
     "offerPrice": 5700,
     "priceBand": [
       4700,
@@ -836,8 +836,8 @@
     ],
     "source": {
       "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-27",
-      "rcptNo": "20261027000312"
+      "asOf": "2026-11-11",
+      "rcptNo": "20261111000327"
     },
     "industry": "의학 및 약학 연구개발업"
   },
@@ -978,40 +978,6 @@
     "industry": "응용 소프트웨어 개발 및 공급업"
   },
   {
-    "id": "01706509",
-    "name": "다비오",
-    "market": "코스닥",
-    "subscriptionStart": "2026-12-01",
-    "subscriptionEnd": "2026-12-02",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      12300,
-      16600
-    ],
-    "summary": "위성·항공·드론 영상을 AI로 분석하는 공간데이터 플랫폼 Eartheye를 개발해 분석 데이터와 솔루션을 공급해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 92.6,
-      "operatingProfit": -44.5
-    },
-    "competitiveness": "신고서에서는 공통 핵심기술을 조합해 여러 산업에 적용하는 orchestration 구조와 IEEE TGRS 등 국제 저널 논문 게재 실적을 경쟁 요소로 내세워요.",
-    "floatShares": {
-      "shares": 3322710,
-      "ratio": 38.88
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "대신증권"
-    ],
-    "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-30",
-      "rcptNo": "20261030000682"
-    },
-    "industry": "응용 소프트웨어 개발 및 공급업"
-  },
-  {
     "id": "01783687",
     "name": "이노보테라퓨틱스",
     "market": "코스닥",
@@ -1081,6 +1047,40 @@
     "industry": "완제 의약품 제조업"
   },
   {
+    "id": "01706509",
+    "name": "다비오",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-09",
+    "subscriptionEnd": "2026-12-10",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      12300,
+      16600
+    ],
+    "summary": "위성·항공·드론 영상을 AI로 분석하는 공간데이터 플랫폼 Eartheye를 개발해 분석 데이터와 솔루션을 공급해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 92.6,
+      "operatingProfit": -44.5
+    },
+    "competitiveness": "신고서에서는 공통 핵심기술을 조합해 여러 산업에 적용하는 orchestration 구조와 IEEE TGRS 등 국제 저널 논문 게재 실적을 경쟁 요소로 내세워요.",
+    "floatShares": {
+      "shares": 3322710,
+      "ratio": 38.88
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "대신증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-11",
+      "rcptNo": "20261111000426"
+    },
+    "industry": "응용 소프트웨어 개발 및 공급업"
+  },
+  {
     "id": "01860700",
     "name": "인터엑스",
     "market": "코스닥",
@@ -1109,9 +1109,9 @@
       "BNK투자증권"
     ],
     "source": {
-      "doc": "증권신고서(지분증권)",
-      "asOf": "2026-10-22",
-      "rcptNo": "20261022000478"
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-11",
+      "rcptNo": "20261111000319"
     },
     "industry": "응용 소프트웨어 개발 및 공급업"
   },
@@ -1144,8 +1144,8 @@
     ],
     "source": {
       "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-11-05",
-      "rcptNo": "20261105000234"
+      "asOf": "2026-11-11",
+      "rcptNo": "20261111000341"
     },
     "industry": "알루미늄 제련, 정련 및 합금 제조업"
   },
