@@ -1150,6 +1150,72 @@
     "industry": "알루미늄 제련, 정련 및 합금 제조업"
   },
   {
+    "id": "01912128",
+    "name": "태석광학",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-14",
+    "subscriptionEnd": "2026-12-15",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      17500,
+      20200
+    ],
+    "summary": "선글라스·안경 등 아이웨어를 중심으로 가방·스카프 같은 패션잡화를 기획해 홈쇼핑·면세점·백화점 등에서 판매해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 798,
+      "operatingProfit": 149.2
+    },
+    "competitiveness": "신고서에서는 상품기획부터 디자인, 제조, 품질관리, 유통까지 잇는 End-to-End 밸류체인과 다층적 브랜드 포트폴리오를 경쟁 요소로 내세워요. 홈쇼핑에서 검증된 판매역량을 면세점·백화점 등으로 넓혔다고 설명해요.",
+    "floatShares": null,
+    "lockupRatio": null,
+    "underwriters": [
+      "신한투자증권",
+      "대신증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-11-12",
+      "rcptNo": "20261112000748"
+    },
+    "industry": "기타 의료용 기기 제조업"
+  },
+  {
+    "id": "00208709",
+    "name": "KTE",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-14",
+    "subscriptionEnd": "2026-12-15",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      19000,
+      23000
+    ],
+    "summary": "선박용·육상용 배전반과 사이드 스러스터, 잠수함·함정용 방산 전력장비를 제작하고 정비 서비스를 제공해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 1739,
+      "operatingProfit": 179.2
+    },
+    "competitiveness": "신고서에서는 비표준·특수 사양에 대응하는 설계 능력을 기술적 진입장벽으로 내세워요. 창립 이래 누적 2,500척분 이상의 주 배전반 및 제어장치를 공급한 실적도 강조해요.",
+    "floatShares": {
+      "shares": 2816000,
+      "ratio": 24.99
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "NH투자증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-12",
+      "rcptNo": "20261112000690"
+    },
+    "industry": "배전반 및 전기 자동제어반 제조업"
+  },
+  {
     "id": "01135039",
     "name": "데스틴파워",
     "market": "코스닥",
@@ -1182,39 +1248,5 @@
       "rcptNo": "20261028000434"
     },
     "industry": "전동기, 발전기 및 전기 변환장치 제조업"
-  },
-  {
-    "id": "00208709",
-    "name": "KTE",
-    "market": "코스닥",
-    "subscriptionStart": "2026-12-14",
-    "subscriptionEnd": "2026-12-15",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      19000,
-      23000
-    ],
-    "summary": "선박용·육상용 배전반과 사이드 스러스터, 잠수함·함정용 방산 전력장비를 제작하고 정비 서비스를 제공해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 1739,
-      "operatingProfit": 179.2
-    },
-    "competitiveness": "신고서에서는 비표준·특수 사양에 대응하는 설계 능력을 기술적 진입장벽으로 내세워요. 창립 이래 누적 2,500척분 이상의 주 배전반 및 제어장치를 공급한 실적도 강조해요.",
-    "floatShares": {
-      "shares": 2816000,
-      "ratio": 24.99
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "NH투자증권"
-    ],
-    "source": {
-      "doc": "증권신고서(지분증권)",
-      "asOf": "2026-10-28",
-      "rcptNo": "20261028000336"
-    },
-    "industry": "배전반 및 전기 자동제어반 제조업"
   }
 ]
