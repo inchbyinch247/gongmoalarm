@@ -876,40 +876,6 @@
     "industry": "동물용 사료 및 조제식품 제조업"
   },
   {
-    "id": "01950720",
-    "name": "제논",
-    "market": "코스닥",
-    "subscriptionStart": "2026-11-24",
-    "subscriptionEnd": "2026-11-25",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      9700,
-      12200
-    ],
-    "summary": "기업용 생성형 AI 통합 플랫폼 GenOS를 자체 개발해 기업·기관 고객에 공급해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 117.4,
-      "operatingProfit": 7
-    },
-    "competitiveness": "신고서에서는 보안과 운영 통제력을 갖춘 전문 플랫폼이라는 점과, 폐쇄망 환경에서 다수의 산업별 최초 상용화 레퍼런스를 보유한 점을 경쟁 요소로 내세워요.",
-    "floatShares": {
-      "shares": 4166180,
-      "ratio": 29.07
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "삼성증권"
-    ],
-    "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-26",
-      "rcptNo": "20261026000001"
-    },
-    "industry": "컴퓨터 시스템 통합 자문, 구축 및 관리업"
-  },
-  {
     "id": "01366675",
     "name": "에이엔에이치스트럭쳐",
     "market": "코스닥",
@@ -1148,6 +1114,40 @@
       "rcptNo": "20261111000341"
     },
     "industry": "알루미늄 제련, 정련 및 합금 제조업"
+  },
+  {
+    "id": "01950720",
+    "name": "제논",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-14",
+    "subscriptionEnd": "2026-12-15",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      9700,
+      12200
+    ],
+    "summary": "기업용 생성형 AI 통합 플랫폼 GenOS를 자체 개발해 기업·기관 고객에 공급해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 117.4,
+      "operatingProfit": 7
+    },
+    "competitiveness": "신고서에서는 보안과 운영 통제력을 갖춘 전문 플랫폼이라는 점과, 폐쇄망 환경에서 다수의 산업별 최초 상용화 레퍼런스를 보유한 점을 경쟁 요소로 내세워요.",
+    "floatShares": {
+      "shares": 4166180,
+      "ratio": 29.07
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "삼성증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-13",
+      "rcptNo": "20261113001531"
+    },
+    "industry": "컴퓨터 시스템 통합 자문, 구축 및 관리업"
   },
   {
     "id": "01912128",
