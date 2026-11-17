@@ -1046,6 +1046,40 @@
     "industry": "알루미늄 제련, 정련 및 합금 제조업"
   },
   {
+    "id": "01135039",
+    "name": "데스틴파워",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-11",
+    "subscriptionEnd": "2026-12-14",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      8000,
+      11000
+    ],
+    "summary": "발전용 연료전지 인버터와 ESS용 전력변환장치(PCS), 수전해 정류기를 설계·제조해 공급해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 298.5,
+      "operatingProfit": 16.5
+    },
+    "competitiveness": "신고서에서는 두산퓨얼셀 PAFC 발전시스템용 인버터 전량 공급과 UL 1741 SA·SB 인증 등 다년간의 공급 실적을 경쟁 요소로 내세워요. 인증과 현장 운전 실적이 필요해 신규 사업자에게 진입장벽이 된다고 설명해요.",
+    "floatShares": {
+      "shares": 5841640,
+      "ratio": 40.12
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "한국투자증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-16",
+      "rcptNo": "20261116002218"
+    },
+    "industry": "전동기, 발전기 및 전기 변환장치 제조업"
+  },
+  {
     "id": "01950720",
     "name": "제논",
     "market": "코스닥",
@@ -1144,39 +1178,5 @@
       "rcptNo": "20261112000690"
     },
     "industry": "배전반 및 전기 자동제어반 제조업"
-  },
-  {
-    "id": "01135039",
-    "name": "데스틴파워",
-    "market": "코스닥",
-    "subscriptionStart": "2026-12-14",
-    "subscriptionEnd": "2026-12-15",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      8000,
-      11000
-    ],
-    "summary": "발전용 연료전지 인버터와 ESS용 전력변환장치(PCS), 수전해 정류기를 설계·제조해 공급해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 298.5,
-      "operatingProfit": 16.5
-    },
-    "competitiveness": "신고서에서는 두산퓨얼셀 PAFC 발전시스템용 인버터 전량 공급과 UL 1741 SA·SB 인증 등 다년간의 공급 실적을 경쟁 요소로 내세워요. 인증과 현장 운전 실적이 필요해 신규 사업자에게 진입장벽이 된다고 설명해요.",
-    "floatShares": {
-      "shares": 5841640,
-      "ratio": 40.12
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "한국투자증권"
-    ],
-    "source": {
-      "doc": "증권신고서(지분증권)",
-      "asOf": "2026-10-28",
-      "rcptNo": "20261028000434"
-    },
-    "industry": "전동기, 발전기 및 전기 변환장치 제조업"
   }
 ]
