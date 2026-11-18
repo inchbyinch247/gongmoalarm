@@ -567,7 +567,7 @@
     "market": "코스닥",
     "subscriptionStart": "2026-11-12",
     "subscriptionEnd": "2026-11-13",
-    "listingDate": null,
+    "listingDate": "2026-11-24",
     "offerPrice": 7000,
     "priceBand": [
       9600,
@@ -666,6 +666,42 @@
     "industry": "전동기 및 발전기 제조업"
   },
   {
+    "id": "01705573",
+    "name": "유캐스트",
+    "market": "코스닥",
+    "subscriptionStart": "2026-11-18",
+    "subscriptionEnd": "2026-11-19",
+    "listingDate": "2026-11-30",
+    "offerPrice": 19000,
+    "priceBand": [
+      19000,
+      23000
+    ],
+    "summary": "LTE·5G 이동통신 기지국과 코어망, 통합관제시스템을 개발·제조해 공공·국방 등 특화망에 공급해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 59.3,
+      "operatingProfit": -18.3
+    },
+    "competitiveness": "신고서에서는 기지국과 코어망의 하드웨어·소프트웨어 설계부터 조립, 유지보수까지 자체 원천기술로 일괄 수행하는 풀스택 구조를 경쟁 요소로 내세워요.",
+    "floatShares": {
+      "shares": 5973910,
+      "ratio": 36.81
+    },
+    "lockupRatio": 0.57,
+    "underwriters": [
+      "유진증권",
+      "신영증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-11-17",
+      "rcptNo": "20261021000443",
+      "confirmRcptNo": "20261117000109"
+    },
+    "industry": "기타 무선 통신장비 제조업"
+  },
+  {
     "id": "00299109",
     "name": "에스에프씨",
     "market": "코스피",
@@ -700,41 +736,6 @@
       "rcptNo": "20261104000099"
     },
     "industry": "그 외 기타 분류 안된 화학제품 제조업"
-  },
-  {
-    "id": "01705573",
-    "name": "유캐스트",
-    "market": "코스닥",
-    "subscriptionStart": "2026-11-18",
-    "subscriptionEnd": "2026-11-19",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      19000,
-      23000
-    ],
-    "summary": "LTE·5G 이동통신 기지국과 코어망, 통합관제시스템을 개발·제조해 공공·국방 등 특화망에 공급해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 59.3,
-      "operatingProfit": -18.3
-    },
-    "competitiveness": "신고서에서는 기지국과 코어망의 하드웨어·소프트웨어 설계부터 조립, 유지보수까지 자체 원천기술로 일괄 수행하는 풀스택 구조를 경쟁 요소로 내세워요.",
-    "floatShares": {
-      "shares": 5973910,
-      "ratio": 36.81
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "유진증권",
-      "신영증권"
-    ],
-    "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-10-21",
-      "rcptNo": "20261021000443"
-    },
-    "industry": "기타 무선 통신장비 제조업"
   },
   {
     "id": "01938746",
@@ -1080,6 +1081,40 @@
     "industry": "전동기, 발전기 및 전기 변환장치 제조업"
   },
   {
+    "id": "00566418",
+    "name": "엠디에스코리아",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-14",
+    "subscriptionEnd": "2026-12-15",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      9500,
+      11500
+    ],
+    "summary": "저온살균 방식의 샐러드와 간편식, 젤리, 소스류를 자체 공장에서 제조해 대형마트·편의점·온라인 등에 공급해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 979.7,
+      "operatingProfit": 75.7
+    },
+    "competitiveness": "신고서에서는 제품 기획부터 살균, 대량 생산, 품질검증, 채널별 납품 대응까지 일괄 수행하는 통합 제조 체계와 B2B·B2C 다채널 대응 역량을 경쟁 요소로 내세워요.",
+    "floatShares": {
+      "shares": 2250000,
+      "ratio": 31.84
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "미래에셋증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-11-17",
+      "rcptNo": "20261117000221"
+    },
+    "industry": "동물용 사료 및 조제식품 제조업"
+  },
+  {
     "id": "01950720",
     "name": "제논",
     "market": "코스닥",
@@ -1178,5 +1213,39 @@
       "rcptNo": "20261112000690"
     },
     "industry": "배전반 및 전기 자동제어반 제조업"
+  },
+  {
+    "id": "01044092",
+    "name": "이나인페이",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-16",
+    "subscriptionEnd": "2026-12-17",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      7500,
+      10500
+    ],
+    "summary": "국내 체류 외국인을 대상으로 모바일 앱 E9pay를 통해 해외송금과 국내송금, 기업송금 서비스를 제공해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 647.1,
+      "operatingProfit": 237.3
+    },
+    "competitiveness": "신고서에서는 복합 인허가와 ISMS-P·PCI-DSS 인증 체계, 국내외 은행 및 MTO 파트너 네트워크, 다국어 고객지원 체계를 경쟁 요소로 내세워요.",
+    "floatShares": {
+      "shares": 6929055,
+      "ratio": 28.73
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "한국투자증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-11-17",
+      "rcptNo": "20261117000140"
+    },
+    "industry": "그 외 기타 금융 지원 서비스업"
   }
 ]
