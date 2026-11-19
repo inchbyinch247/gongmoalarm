@@ -869,8 +869,8 @@
     ],
     "source": {
       "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-11-03",
-      "rcptNo": "20261103000358"
+      "asOf": "2026-11-18",
+      "rcptNo": "20261118000343"
     },
     "industry": "응용 소프트웨어 개발 및 공급업"
   },
@@ -944,6 +944,41 @@
     "industry": "완제 의약품 제조업"
   },
   {
+    "id": "01860700",
+    "name": "인터엑스",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-09",
+    "subscriptionEnd": "2026-12-10",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      10000,
+      13000
+    ],
+    "summary": "제조 현장에 AI를 적용하는 AX 솔루션과 자율제조 플랫폼, 관련 컨설팅을 개발·공급해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 86.4,
+      "operatingProfit": -82.8
+    },
+    "competitiveness": "신고서에서는 현장 데이터 인지부터 AI 의사결정, 디지털 트윈 제어까지 다크 팩토리 구현에 필요한 풀스택 기술력을 경쟁 요소로 내세워요. 200여 건 이상의 제조 AI 프로젝트 수행 실적도 강조해요.",
+    "floatShares": {
+      "shares": 5474628,
+      "ratio": 37.5
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "한국투자증권",
+      "BNK투자증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-18",
+      "rcptNo": "20261118000136"
+    },
+    "industry": "응용 소프트웨어 개발 및 공급업"
+  },
+  {
     "id": "01706509",
     "name": "다비오",
     "market": "코스닥",
@@ -974,41 +1009,6 @@
       "doc": "[기재정정]증권신고서(지분증권)",
       "asOf": "2026-11-11",
       "rcptNo": "20261111000426"
-    },
-    "industry": "응용 소프트웨어 개발 및 공급업"
-  },
-  {
-    "id": "01860700",
-    "name": "인터엑스",
-    "market": "코스닥",
-    "subscriptionStart": "2026-12-09",
-    "subscriptionEnd": "2026-12-10",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      10000,
-      13000
-    ],
-    "summary": "제조 현장에 AI를 적용하는 AX 솔루션과 자율제조 플랫폼, 관련 컨설팅을 개발·공급해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 86.4,
-      "operatingProfit": -82.8
-    },
-    "competitiveness": "신고서에서는 현장 데이터 인지부터 AI 의사결정, 디지털 트윈 제어까지 다크 팩토리 구현에 필요한 풀스택 기술력을 경쟁 요소로 내세워요. 200여 건 이상의 제조 AI 프로젝트 수행 실적도 강조해요.",
-    "floatShares": {
-      "shares": 5474628,
-      "ratio": 37.5
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "한국투자증권",
-      "BNK투자증권"
-    ],
-    "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-11-11",
-      "rcptNo": "20261111000319"
     },
     "industry": "응용 소프트웨어 개발 및 공급업"
   },
