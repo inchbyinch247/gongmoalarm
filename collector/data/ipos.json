@@ -1,41 +1,5 @@
 [
   {
-    "id": "01754737",
-    "name": "엘리스",
-    "market": "코스닥",
-    "subscriptionStart": "2026-10-07",
-    "subscriptionEnd": "2026-10-08",
-    "listingDate": "2026-10-20",
-    "offerPrice": 90500,
-    "priceBand": [
-      70400,
-      90500
-    ],
-    "summary": null,
-    "financials": {
-      "year": 2025,
-      "revenue": 395.1,
-      "operatingProfit": 51.8
-    },
-    "competitiveness": null,
-    "floatShares": {
-      "shares": 2311880,
-      "ratio": 20.81
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "미래에셋증권",
-      "삼성증권"
-    ],
-    "source": {
-      "doc": "[발행조건확정]증권신고서(지분증권)",
-      "asOf": "2026-10-06",
-      "rcptNo": "20260929000656",
-      "confirmRcptNo": "20261006000447"
-    },
-    "industry": "응용 소프트웨어 개발 및 공급업"
-  },
-  {
     "id": "01749559",
     "name": "엠에스바이오",
     "market": "코스닥",
