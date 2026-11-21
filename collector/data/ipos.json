@@ -1211,5 +1211,40 @@
       "rcptNo": "20261117000140"
     },
     "industry": "그 외 기타 금융 지원 서비스업"
+  },
+  {
+    "id": "01013612",
+    "name": "피지티",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-17",
+    "subscriptionEnd": "2026-12-18",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      18000,
+      20000
+    ],
+    "summary": "이차전지 전해질 LiPF6와 화장품 보습·보존용 첨가제 HDO, 감열지 염료를 제조해 공급해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 401.4,
+      "operatingProfit": -55.8
+    },
+    "competitiveness": "신고서에서는 배치식이 아닌 연속 합성·연속 결정화 공정과 전 공정 모듈화 설계를 경쟁 요소로 내세워요. 기존 배치 공정보다 원료 사용량을 10~30% 이상 줄이고 염산 부산물을 자원화해 폐수를 줄인다고 설명해요.",
+    "floatShares": {
+      "shares": 3433479,
+      "ratio": 24.97
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "한국투자증권",
+      "유안타증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-11-20",
+      "rcptNo": "20261120000538"
+    },
+    "industry": "그 외 기타 화학제품 제조업"
   }
 ]
