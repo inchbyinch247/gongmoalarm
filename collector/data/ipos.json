@@ -1,40 +1,5 @@
 [
   {
-    "id": "01749559",
-    "name": "엠에스바이오",
-    "market": "코스닥",
-    "subscriptionStart": "2026-10-12",
-    "subscriptionEnd": "2026-10-13",
-    "listingDate": "2026-10-22",
-    "offerPrice": 7800,
-    "priceBand": [
-      6800,
-      7800
-    ],
-    "summary": null,
-    "financials": {
-      "year": 2025,
-      "revenue": 237.9,
-      "operatingProfit": 85.6
-    },
-    "competitiveness": null,
-    "floatShares": {
-      "shares": 6347310,
-      "ratio": 23.33
-    },
-    "lockupRatio": 30.62,
-    "underwriters": [
-      "케이비증권"
-    ],
-    "source": {
-      "doc": "[발행조건확정]증권신고서(지분증권)",
-      "asOf": "2026-10-07",
-      "rcptNo": "20260929000496",
-      "confirmRcptNo": "20261007000327"
-    },
-    "industry": "그 외 기타 의료용 기기 제조업"
-  },
-  {
     "id": "00534729",
     "name": "디티에스",
     "market": "코스닥",
