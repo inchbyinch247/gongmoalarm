@@ -1,41 +1,5 @@
 [
   {
-    "id": "00534729",
-    "name": "디티에스",
-    "market": "코스닥",
-    "subscriptionStart": "2026-10-13",
-    "subscriptionEnd": "2026-10-14",
-    "listingDate": "2026-10-23",
-    "offerPrice": 18500,
-    "priceBand": [
-      17000,
-      18500
-    ],
-    "summary": null,
-    "financials": {
-      "year": 2025,
-      "revenue": 1427.2,
-      "operatingProfit": 250.8
-    },
-    "competitiveness": null,
-    "floatShares": {
-      "shares": 2250787,
-      "ratio": 15.15
-    },
-    "lockupRatio": 13.31,
-    "underwriters": [
-      "대신증권",
-      "유진증권"
-    ],
-    "source": {
-      "doc": "[발행조건확정]증권신고서(지분증권)",
-      "asOf": "2026-10-12",
-      "rcptNo": "20261001000078",
-      "confirmRcptNo": "20261012000308"
-    },
-    "industry": "특수 목적용 기계 제조업"
-  },
-  {
     "id": "01540903",
     "name": "크리에이츠",
     "market": "코스닥",
