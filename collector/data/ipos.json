@@ -140,41 +140,6 @@
     "industry": "그 외 기타 전자 부품 제조업"
   },
   {
-    "id": "01956751",
-    "name": "래블업",
-    "market": "코스닥",
-    "subscriptionStart": "2026-10-22",
-    "subscriptionEnd": "2026-10-23",
-    "listingDate": "2026-11-03",
-    "offerPrice": 19000,
-    "priceBand": [
-      19000,
-      22000
-    ],
-    "summary": "AI 인프라 운영 플랫폼 Backend.AI를 개발해 소프트웨어 라이선스와 기술지원 형태로 공급해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 67.2,
-      "operatingProfit": 6.8
-    },
-    "competitiveness": "신고서에서는 GPU 분할 가상화와 이기종 가속기 통합 운영, 폐쇄망 지원을 경쟁 요소로 내세워요. GPU를 단독으로 쓸 때보다 학습 성능 손실이 1% 미만이라고 설명해요.",
-    "floatShares": {
-      "shares": 5172746,
-      "ratio": 35.57
-    },
-    "lockupRatio": 2.09,
-    "underwriters": [
-      "NH투자증권"
-    ],
-    "source": {
-      "doc": "[발행조건확정]증권신고서(지분증권)",
-      "asOf": "2026-10-21",
-      "rcptNo": "20261014000436",
-      "confirmRcptNo": "20261021000334"
-    },
-    "industry": "시스템 소프트웨어 개발 및 공급업"
-  },
-  {
     "id": "00579342",
     "name": "영광",
     "market": "코스닥",
@@ -208,6 +173,41 @@
       "confirmRcptNo": "20261021000239"
     },
     "industry": "수상 금속 골조 구조재 제조업"
+  },
+  {
+    "id": "01956751",
+    "name": "래블업",
+    "market": "코스닥",
+    "subscriptionStart": "2026-10-22",
+    "subscriptionEnd": "2026-10-23",
+    "listingDate": "2026-11-03",
+    "offerPrice": 19000,
+    "priceBand": [
+      19000,
+      22000
+    ],
+    "summary": "AI 인프라 운영 플랫폼 Backend.AI를 개발해 소프트웨어 라이선스와 기술지원 형태로 공급해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 67.2,
+      "operatingProfit": 6.8
+    },
+    "competitiveness": "신고서에서는 GPU 분할 가상화와 이기종 가속기 통합 운영, 폐쇄망 지원을 경쟁 요소로 내세워요. GPU를 단독으로 쓸 때보다 학습 성능 손실이 1% 미만이라고 설명해요.",
+    "floatShares": {
+      "shares": 5172746,
+      "ratio": 35.57
+    },
+    "lockupRatio": 2.09,
+    "underwriters": [
+      "NH투자증권"
+    ],
+    "source": {
+      "doc": "[발행조건확정]증권신고서(지분증권)",
+      "asOf": "2026-10-21",
+      "rcptNo": "20261014000436",
+      "confirmRcptNo": "20261021000334"
+    },
+    "industry": "시스템 소프트웨어 개발 및 공급업"
   },
   {
     "id": "01835829",
