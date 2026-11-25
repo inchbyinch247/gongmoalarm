@@ -837,6 +837,40 @@
     "industry": "완제 의약품 제조업"
   },
   {
+    "id": "01706509",
+    "name": "다비오",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-09",
+    "subscriptionEnd": "2026-12-10",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      12300,
+      16600
+    ],
+    "summary": "위성·항공·드론 영상을 AI로 분석하는 공간데이터 플랫폼 Eartheye를 개발해 분석 데이터와 솔루션을 공급해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 92.6,
+      "operatingProfit": -44.5
+    },
+    "competitiveness": "신고서에서는 공통 핵심기술을 조합해 여러 산업에 적용하는 orchestration 구조와 IEEE TGRS 등 국제 저널 논문 게재 실적을 경쟁 요소로 내세워요.",
+    "floatShares": {
+      "shares": 3322710,
+      "ratio": 38.88
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "대신증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-24",
+      "rcptNo": "20261124000306"
+    },
+    "industry": "응용 소프트웨어 개발 및 공급업"
+  },
+  {
     "id": "01860700",
     "name": "인터엑스",
     "market": "코스닥",
@@ -868,40 +902,6 @@
       "doc": "[기재정정]증권신고서(지분증권)",
       "asOf": "2026-11-18",
       "rcptNo": "20261118000136"
-    },
-    "industry": "응용 소프트웨어 개발 및 공급업"
-  },
-  {
-    "id": "01706509",
-    "name": "다비오",
-    "market": "코스닥",
-    "subscriptionStart": "2026-12-09",
-    "subscriptionEnd": "2026-12-10",
-    "listingDate": null,
-    "offerPrice": null,
-    "priceBand": [
-      12300,
-      16600
-    ],
-    "summary": "위성·항공·드론 영상을 AI로 분석하는 공간데이터 플랫폼 Eartheye를 개발해 분석 데이터와 솔루션을 공급해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 92.6,
-      "operatingProfit": -44.5
-    },
-    "competitiveness": "신고서에서는 공통 핵심기술을 조합해 여러 산업에 적용하는 orchestration 구조와 IEEE TGRS 등 국제 저널 논문 게재 실적을 경쟁 요소로 내세워요.",
-    "floatShares": {
-      "shares": 3322710,
-      "ratio": 38.88
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "대신증권"
-    ],
-    "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-11-11",
-      "rcptNo": "20261111000426"
     },
     "industry": "응용 소프트웨어 개발 및 공급업"
   },
@@ -1140,6 +1140,42 @@
       "rcptNo": "20261117000140"
     },
     "industry": "그 외 기타 금융 지원 서비스업"
+  },
+  {
+    "id": "01182790",
+    "name": "범한메카텍",
+    "market": "코스닥",
+    "subscriptionStart": "2026-12-17",
+    "subscriptionEnd": "2026-12-18",
+    "listingDate": null,
+    "offerPrice": null,
+    "priceBand": [
+      22800,
+      28000
+    ],
+    "summary": "압력용기·열교환기 같은 에너지 생산 기자재와 HRSG·플랜트 모듈, 원전·SMR 등 발전 기자재를 주문제작해 공급해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 4151.1,
+      "operatingProfit": 136.9
+    },
+    "competitiveness": "신고서에서는 ASME 등 국제 인증과 Saudi Aramco 등 글로벌 발주처의 승인업체 등재, 최대 3,000톤급 초대형 제품을 제작해 해상으로 출하할 수 있는 생산설비를 경쟁 요소로 내세워요.",
+    "floatShares": {
+      "shares": 391500,
+      "ratio": 25.6
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "NH투자증권",
+      "유진증권",
+      "BNK투자증권"
+    ],
+    "source": {
+      "doc": "증권신고서(지분증권)",
+      "asOf": "2026-11-24",
+      "rcptNo": "20261124000540"
+    },
+    "industry": "산업용 난방 보일러, 금속탱크 및 유사 용기 제조업"
   },
   {
     "id": "01013612",
