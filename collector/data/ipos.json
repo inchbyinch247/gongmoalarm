@@ -906,40 +906,6 @@
     "industry": "응용 소프트웨어 개발 및 공급업"
   },
   {
-    "id": "01077540",
-    "name": "씨아이에스케미칼",
-    "market": "코스닥",
-    "subscriptionStart": "2026-12-10",
-    "subscriptionEnd": "2026-12-11",
-    "listingDate": "2026-12-22",
-    "offerPrice": null,
-    "priceBand": [
-      5400,
-      6800
-    ],
-    "summary": "재활용 원료에서 리튬·니켈·코발트를 회수·정제해 재생 탄산리튬과 재생 MHP를 만들고, 고순도 알루미나 등 첨단 소재를 가공해요.",
-    "financials": {
-      "year": 2025,
-      "revenue": 159.8,
-      "operatingProfit": -102.6
-    },
-    "competitiveness": "신고서에서는 다양한 종류와 농도의 리튬 함유 원료를 처리하는 기술 역량을 내세워요. 리튬 회수공정의 회수율이 98% 이상이고, 니켈·코발트가 없는 LFP계 원료에서도 리튬을 회수한다고 설명해요.",
-    "floatShares": {
-      "shares": 11658971,
-      "ratio": 37.71
-    },
-    "lockupRatio": null,
-    "underwriters": [
-      "케이비증권"
-    ],
-    "source": {
-      "doc": "[기재정정]증권신고서(지분증권)",
-      "asOf": "2026-11-11",
-      "rcptNo": "20261111000341"
-    },
-    "industry": "알루미늄 제련, 정련 및 합금 제조업"
-  },
-  {
     "id": "01135039",
     "name": "데스틴파워",
     "market": "코스닥",
@@ -1211,5 +1177,39 @@
       "rcptNo": "20261120000538"
     },
     "industry": "그 외 기타 화학제품 제조업"
+  },
+  {
+    "id": "01077540",
+    "name": "씨아이에스케미칼",
+    "market": "코스닥",
+    "subscriptionStart": "2027-01-21",
+    "subscriptionEnd": "2027-01-22",
+    "listingDate": "2026-12-22",
+    "offerPrice": null,
+    "priceBand": [
+      5000,
+      6000
+    ],
+    "summary": "재활용 원료에서 리튬·니켈·코발트를 회수·정제해 재생 탄산리튬과 재생 MHP를 만들고, 고순도 알루미나 등 첨단 소재를 가공해요.",
+    "financials": {
+      "year": 2025,
+      "revenue": 159.8,
+      "operatingProfit": -102.6
+    },
+    "competitiveness": "신고서에서는 다양한 종류와 농도의 리튬 함유 원료를 처리하는 기술 역량을 내세워요. 리튬 회수공정의 회수율이 98% 이상이고, 니켈·코발트가 없는 LFP계 원료에서도 리튬을 회수한다고 설명해요.",
+    "floatShares": {
+      "shares": 11658971,
+      "ratio": 37.71
+    },
+    "lockupRatio": null,
+    "underwriters": [
+      "케이비증권"
+    ],
+    "source": {
+      "doc": "[기재정정]증권신고서(지분증권)",
+      "asOf": "2026-11-27",
+      "rcptNo": "20261127001324"
+    },
+    "industry": "알루미늄 제련, 정련 및 합금 제조업"
   }
 ]
